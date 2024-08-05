@@ -20,17 +20,17 @@ export default [
       {
         "name": "Tony Stark / Iron Man",
         "actor": "Robert Downey Jr.",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg",
       },
       {
         "name": "Pepper Potts",
         "actor": "Gwyneth Paltrow",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://es.web.img3.acsta.net/c_310_420/pictures/15/08/12/12/18/463766.jpg",
       },
       {
         "name": "Obadiah Stane / Iron Monger",
         "actor": "Jeff Bridges",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Jeff_Bridges_by_Gage_Skidmore_3.jpg/440px-Jeff_Bridges_by_Gage_Skidmore_3.jpg",
       }
     ]
     },
@@ -55,20 +55,20 @@ export default [
       {
         "name": "Bruce Banner / Hulk",
         "actor": "Edward Norton",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQz2XiRAy9oci5S2UjHc4K9MQ7FEUBk0FKzHaFzjylm4gOjMBmp",
       },
       {
         "name": "Betty Ross",
         "actor": "Liv Tyler",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQdTiaBZT1Qj1H7HFnYhGFn6ivkVFht405PNS2KcaC3FIIeQOks",
       },
       {
         "name": "Emil Blonsky / Abomination",
         "actor": "Tim Roth",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjA5NTA3MDQyOV5BMl5BanBnXkFtZTcwODM4NDE3Mw@@._V1_FMjpg_UX1000_.jpg"
       }
     ]
-  
+
     },
     {
       "id": "iron_man_2_2010",
@@ -91,20 +91,20 @@ export default [
       {
         "name": "Tony Stark / Iron Man",
         "actor": "Robert Downey Jr.",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg",
       },
       {
         "name": "Natalia Romanova / Black Widow",
         "actor": "Scarlett Johansson",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "ahttps://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp",
       },
       {
         "name": "James Rhodes / War Machine",
         "actor": "Don Cheadle",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://cdn.britannica.com/95/216995-050-5E4D147A/American-actor-director-Don-Cheadle-2016.jpg"
       }
     ]
-  
+
     },
     {
       "id": "thor_2011",
@@ -127,20 +127,20 @@ export default [
       {
         "name": "Thor",
         "actor": "Chris Hemsworth",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe",
       },
       {
         "name": "Loki",
         "actor": "Tom Hiddleston",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://media.vanityfair.com/photos/66050a8578f6c8e74b372ef6/master/w_2560%2Cc_limit/1398729436",
       },
       {
         "name": "Jane Foster",
         "actor": "Natalie Portman",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQX7OGrgSH5rsJwWW2n5KdzUjL1SDsXCvNjl818LcTrh-ZsP3rPco6z-XU_P0DSwisnHLCgv38SmmwOSzA",
       }
     ]
-  
+
     },
     {
       "id": "captain_america_2011",
@@ -163,20 +163,20 @@ export default [
       {
         "name": "Steve Rogers / Captain America",
         "actor": "Chris Evans",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg",
       },
       {
         "name": "Peggy Carter",
         "actor": "Hayley Atwell",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://www.pearlanddean.com/wp-content/uploads/2023/07/uuid87fd46a0-b9ab-41a7-af67-c96c20d99d44groupId10139t1689327260184.jpg",
       },
       {
         "name": "Johann Schmidt / Red Skull",
         "actor": "Hugo Weaving",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.34986050194931767%2C$multiply_0.7554%2C$ratio_1.776846%2C$width_1059%2C$x_66%2C$y_505/t_crop_custom/q_86%2Cf_auto/c122ca454dcb6ad6ac5e8b0765c3a774c8e3ab0e",
       }
     ]
-  
+
     },
     {
       "id": "avengers_2012",
@@ -199,20 +199,20 @@ export default [
       {
         "name": "Tony Stark / Iron Man",
         "actor": "Robert Downey Jr.",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg",
       },
       {
         "name": "Steve Rogers / Captain America",
         "actor": "Chris Evans",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg",
       },
       {
         "name": "Bruce Banner / Hulk",
         "actor": "Mark Ruffalo",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg/170px-Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg",
       }
     ]
-  
+
     },
     {
       "id": "iron_man_3_2013",
@@ -235,20 +235,20 @@ export default [
       {
         "name": "Tony Stark / Iron Man",
         "actor": "Robert Downey Jr.",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg",
       },
       {
         "name": "Pepper Potts",
         "actor": "Gwyneth Paltrow",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://es.web.img3.acsta.net/c_310_420/pictures/15/08/12/12/18/463766.jpg",
       },
       {
         "name": "Aldrich Killian",
         "actor": "Guy Pearce",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/15/07/22/12/52/040647.jpg",
       }
     ]
-  
+
     },
     {
       "id": "thor_dark_world_2013",
@@ -271,20 +271,20 @@ export default [
       {
         "name": "Thor",
         "actor": "Chris Hemsworth",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe",
       },
       {
         "name": "Loki",
         "actor": "Tom Hiddleston",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://media.vanityfair.com/photos/66050a8578f6c8e74b372ef6/master/w_2560%2Cc_limit/1398729436",
       },
       {
         "name": "Jane Foster",
         "actor": "Natalie Portman",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQX7OGrgSH5rsJwWW2n5KdzUjL1SDsXCvNjl818LcTrh-ZsP3rPco6z-XU_P0DSwisnHLCgv38SmmwOSzA",
       }
     ]
-  
+
     },
     {
       "id": "captain_america_winter_soldier",
@@ -307,20 +307,20 @@ export default [
       {
         "name": "Steve Rogers / Captain America",
         "actor": "Chris Evans",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg",
       },
       {
         "name": "Bucky Barnes / Winter Soldier",
         "actor": "Sebastian Stan",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://assets.dev-filo.dift.io/img/2022/07/28/sebastian_stan_sq.jpg",
       },
       {
         "name": "Natasha Romanoff / Black Widow",
         "actor": "Scarlett Johansson",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "ahttps://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp",
       }
     ]
-  
+
     },
     {
       "id": "guardians_of_the_galaxy_2014",
@@ -343,20 +343,20 @@ export default [
       {
         "name": "Peter Quill / Star-Lord",
         "actor": "Chris Pratt",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/249381_v9_bc.jpg",
       },
       {
         "name": "Gamora",
         "actor": "Zoe Saldana",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://assets.telegraphindia.com/telegraph/2023/Jun/1686827029_zoe-saldana.jpg",
       },
       {
         "name": "Drax the Destroyer",
         "actor": "Dave Bautista",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://people.com/thmb/CruPsjVRgE0NH-cQbH6Rflkpt6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(779x319:781x321)/sexy-every-age-4-5e0dfeed3fb040c69b6b5eacdf1b2a3b.jpg",
       },
     ]
-  
+
     },
     {
       "id": "avengers_age_of_ultron_2015",
@@ -379,20 +379,20 @@ export default [
       {
         "name": "Tony Stark / Iron Man",
         "actor": "Robert Downey Jr.",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
       },
       {
         "name": "Steve Rogers / Captain America",
         "actor": "Chris Evans",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
       },
       {
         "name": "Bruce Banner / Hulk",
         "actor": "Mark Ruffalo",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg/170px-Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg"
       }
     ]
-  
+
     },
     {
       "id": "ant_man_2015",
@@ -415,20 +415,20 @@ export default [
       {
         "name": "Scott Lang / Ant-Man",
         "actor": "Paul Rudd",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://es.web.img2.acsta.net/pictures/18/04/24/11/17/4714754.jpg"
       },
       {
         "name": "Hope van Dyne",
         "actor": "Evangeline Lilly",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://st4.depositphotos.com/5326338/20651/i/380/depositphotos_206518834-stock-photo-actress-evangeline-lilly-los-angeles.jpg"
       },
       {
         "name": "Darren Cross / Yellowjacket",
         "actor": "Corey Stoll",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://image.tmdb.org/t/p/w500/etqmosIyf1xePKpi3i6rHJCm9GE.jpg"
       }
     ]
-  
+
     },
     {
       "id": "captain_america_civil_war_2016",
@@ -451,20 +451,20 @@ export default [
       {
         "name": "Steve Rogers / Captain America",
         "actor": "Chris Evans",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
       },
       {
         "name": "Tony Stark / Iron Man",
         "actor": "Robert Downey Jr.",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
       },
       {
         "name": "Natasha Romanoff / Black Widow",
         "actor": "Scarlett Johansson",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "ahttps://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp"
       }
     ]
-  
+
     },
     {
       "id": "doctor_strange_2016",
@@ -487,20 +487,20 @@ export default [
       {
         "name": "Dr. Stephen Strange",
         "actor": "Benedict Cumberbatch",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/210728-se-esquire-benedict-cumberbatch-shot-02-019-fin3-flat-1636369360.png"
       },
       {
         "name": "Christine Palmer",
         "actor": "Rachel McAdams",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rachel_McAdams_by_Gage_Skidmore.jpg/1200px-Rachel_McAdams_by_Gage_Skidmore.jpg"
       },
       {
         "name": "Karl Mordo",
         "actor": "Chiwetel Ejiofor",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Chiwetel_Ejiofor_TIFF_2015.jpg"
       }
     ]
-  
+
     },
     {
       "id": "guardians_galaxy_vol_2_2017",
@@ -523,20 +523,20 @@ export default [
       {
         "name": "Peter Quill / Star-Lord",
         "actor": "Chris Pratt",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/249381_v9_bc.jpg"
       },
       {
         "name": "Gamora",
         "actor": "Zoe Saldana",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://assets.telegraphindia.com/telegraph/2023/Jun/1686827029_zoe-saldana.jpg"
       },
       {
         "name": "Drax the Destroyer",
         "actor": "Dave Bautista",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "ahttps://people.com/thmb/CruPsjVRgE0NH-cQbH6Rflkpt6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(779x319:781x321)/sexy-every-age-4-5e0dfeed3fb040c69b6b5eacdf1b2a3b.jpg"
       }
     ]
-  
+
     },
     {
       "id": "spider_man_homecoming_2017",
@@ -559,20 +559,20 @@ export default [
       {
         "name": "Peter Parker / Spider-Man",
         "actor": "Tom Holland",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/640px-Tom_Holland_by_Gage_Skidmore.jpg"
       },
       {
         "name": "Adrian Toomes / Vulture",
         "actor": "Michael Keaton",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1127231094.jpg"
       },
       {
         "name": "Michelle 'MJ' Jones",
         "actor": "Zendaya",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Zendaya_-_2019_by_Glenn_Francis.jpg/1200px-Zendaya_-_2019_by_Glenn_Francis.jpg",
       }
     ]
-  
+
     },
     {
       "id": "thor_ragnarok_2017",
@@ -586,7 +586,7 @@ export default [
         "director": "Taika Waititi",
         "duration": "130 min",
         "trailer":"https://www.youtube.com/embed/ue80QwXMRHg"
-  
+
       },
       "extraInfo": {
         "awards": 12,
@@ -596,20 +596,20 @@ export default [
       {
         "name": "Thor",
         "actor": "Chris Hemsworth",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe",
       },
       {
         "name": "Loki",
         "actor": "Tom Hiddleston",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://media.vanityfair.com/photos/66050a8578f6c8e74b372ef6/master/w_2560%2Cc_limit/1398729436",
       },
       {
         "name": "Hela",
         "actor": "Cate Blanchett",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTc1MDI0MDg1NV5BMl5BanBnXkFtZTgwMDM3OTAzMTE@._V1_FMjpg_UX1000_.jpg",
       }
     ]
-  
+
     },
     {
       "id": "black_panther_2018",
@@ -623,7 +623,7 @@ export default [
         "director": "Ryan Coogler",
         "duration": "134 min",
         "trailer":"https://www.youtube.com/embed/xjDjIWPwcPU"
-  
+
       },
       "extraInfo": {
         "awards": 112,
@@ -633,20 +633,20 @@ export default [
       {
         "name": "T'Challa / Black Panther",
         "actor": "Chadwick Boseman",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRihboW-OFFzindD8MjRRZksYUVbqkRRObmPA&s",
       },
       {
         "name": "Erik Killmonger",
         "actor": "Michael B. Jordan",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Michael_B._Jordan_Cannes_2018.jpg/1200px-Michael_B._Jordan_Cannes_2018.jpg",
       },
       {
         "name": "Nakia",
         "actor": "Lupita Nyong'o",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lupita_Nyong%27o_by_Gage_Skidmore_4.jpg/1200px-Lupita_Nyong%27o_by_Gage_Skidmore_4.jpg",
       }
     ]
-  
+
     },
     {
       "id": "avengers_infinity_war_2018",
@@ -660,7 +660,7 @@ export default [
         "director": "Anthony Russo, Joe Russo",
         "duration": "149 min",
         "trailer":"https://www.youtube.com/embed/6ZfuNTqbHE8"
-  
+
       },
       "extraInfo": {
         "awards": 46,
@@ -670,20 +670,20 @@ export default [
       {
         "name": "Tony Stark / Iron Man",
         "actor": "Robert Downey Jr.",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg",
       },
       {
         "name": "Steve Rogers / Captain America",
         "actor": "Chris Evans",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg",
       },
       {
         "name": "Thanos",
         "actor": "Josh Brolin",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://pyxis.nymag.com/v1/imgs/654/ab4/c4d53abf0326f8e9dc9635eb42080fadf2-20-josh-brolin.rsquare.w330.jpg",
       }
     ]
-  
+
     },
     {
       "id": "ant_man_and_wasp_2018",
@@ -706,20 +706,20 @@ export default [
       {
         "name": "Scott Lang / Ant-Man",
         "actor": "Paul Rudd",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://es.web.img2.acsta.net/pictures/18/04/24/11/17/4714754.jpg",
       },
       {
         "name": "Hope van Dyne / The Wasp",
         "actor": "Evangeline Lilly",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://st4.depositphotos.com/5326338/20651/i/380/depositphotos_206518834-stock-photo-actress-evangeline-lilly-los-angeles.jpg",
       },
       {
         "name": "Hank Pym",
         "actor": "Michael Douglas",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Michael_Douglas_C%C3%A9sar_2016_3.jpg",
       }
     ]
-  
+
     },
     {
       "id": "captain_marvel_2019",
@@ -742,20 +742,20 @@ export default [
       {
         "name": "Carol Danvers / Captain Marvel",
         "actor": "Brie Larson",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://www.shefinds.com/files/2023/06/Brie-Larson-9th-Annual-Breakthrough-Prize-Ceremony.jpga",
       },
       {
         "name": "Nick Fury",
         "actor": "Samuel L. Jackson",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/SamuelLJackson.jpg/640px-SamuelLJackson.jpg",
       },
       {
         "name": "Talos",
         "actor": "Ben Mendelsohn",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Ben_Mendelsohn_by_Gage_Skidmore.jpg",
       }
     ]
-  
+
     },
     {
       "id": "avengers_endgame_2019",
@@ -778,20 +778,20 @@ export default [
       {
         "name": "Tony Stark / Iron Man",
         "actor": "Robert Downey Jr.",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg",
       },
       {
         "name": "Steve Rogers / Captain America",
         "actor": "Chris Evans",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg",
       },
       {
         "name": "Thor",
         "actor": "Chris Hemsworth",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe",
       }
     ]
-  
+
     },
     {
       "id": "spider_man_far_from_home_2019",
@@ -805,7 +805,7 @@ export default [
         "director": "Jon Watts",
         "duration": "129 min",
         "trailer":"https://www.youtube.com/embed/DYYtuKyMtY8"
-  
+
       },
       "extraInfo": {
         "awards": 4,
@@ -815,20 +815,20 @@ export default [
       {
         "name": "Peter Parker / Spider-Man",
         "actor": "Tom Holland",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/640px-Tom_Holland_by_Gage_Skidmore.jpg",
       },
       {
         "name": "Quentin Beck / Mysterio",
         "actor": "Jake Gyllenhaal",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "ahttps://upload.wikimedia.org/wikipedia/commons/0/0e/Jake_Gyllenhaal_2019_by_Glenn_Francis.jpg",
       },
       {
         "name": "Michelle 'MJ' Jones",
         "actor": "Zendaya",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Zendaya_-_2019_by_Glenn_Francis.jpg/1200px-Zendaya_-_2019_by_Glenn_Francis.jpg",
       }
     ]
-  
+
     },
     {
       "id": "black_widow_2021",
@@ -842,7 +842,7 @@ export default [
         "director": "Cate Shortland",
         "duration": "134 min",
         "trailer":"https://www.youtube.com/embed/Fp9pNPdNwjI"
-  
+
       },
       "extraInfo": {
         "awards": 7,
@@ -852,20 +852,19 @@ export default [
       {
         "name": "Natasha Romanoff / Black Widow",
         "actor": "Scarlett Johansson",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "ahttps://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp",
       },
       {
         "name": "Yelena Belova",
         "actor": "Florence Pugh",
-        "imageUrl": "aqui no pongas nada"
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Florence_Pugh_-_The_Wonder_BFI_London_Film_Festival_Premiere%2C_October_2022.jpg"
       },
       {
         "name": "Alexei Shostakov / Red Guardian",
         "actor": "David Harbour",
-        "imageUrl": "aqui no pongas nada",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/David_Harbour_by_Gage_Skidmore_2.jpg",
       }
     ]
-  
+
     }
   ];
-  
