@@ -1,4 +1,4 @@
-import { setRootEl, setRoutes, navigateTo, onURLChange } from './routes.js';
+import { setRootEl, setRoutes, onURLChange } from './routes.js';
 import Home  from './views/Home.js';
 import Error from "./views/Error.js";
 
