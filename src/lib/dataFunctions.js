@@ -76,3 +76,8 @@ export function searchMovies(data, query) {
   return data.filter(movie => movie.name.toLowerCase().includes(query));
 }
 
+export function getMovieById(data, movieId) {
+  return data.find(movie => movie.id === movieId);
+
+}
+

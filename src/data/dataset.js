@@ -19,19 +19,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Tony Stark / Iron Man",
-        "actor1": "Robert Downey Jr.",
-        "imageUrl1": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
+        "name": "Tony Stark / Iron Man",
+        "actor": "Robert Downey Jr.",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
       },
       {
-        "name2": "Pepper Potts",
-        "actor2": "Gwyneth Paltrow",
-        "imageUrl2": "https://es.web.img3.acsta.net/c_310_420/pictures/15/08/12/12/18/463766.jpg"
+        "name": "Pepper Potts",
+        "actor": "Gwyneth Paltrow",
+        "imageUrl": "https://es.web.img3.acsta.net/c_310_420/pictures/15/08/12/12/18/463766.jpg"
       },
       {
-        "name3": "Obadiah Stane / Iron Monger",
-        "actor3": "Jeff Bridges",
-        "imageUrl3": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Jeff_Bridges_by_Gage_Skidmore_3.jpg/440px-Jeff_Bridges_by_Gage_Skidmore_3.jpg"
+        "name": "Obadiah Stane / Iron Monger",
+        "actor": "Jeff Bridges",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Jeff_Bridges_by_Gage_Skidmore_3.jpg/440px-Jeff_Bridges_by_Gage_Skidmore_3.jpg"
       }
     ]
   },
@@ -55,19 +55,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Bruce Banner / Hulk",
-        "actor1": "Edward Norton",
-        "imageUrl1": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQz2XiRAy9oci5S2UjHc4K9MQ7FEUBk0FKzHaFzjylm4gOjMBmp"
+        "name": "Bruce Banner / Hulk",
+        "actor": "Edward Norton",
+        "imageUrl": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQz2XiRAy9oci5S2UjHc4K9MQ7FEUBk0FKzHaFzjylm4gOjMBmp"
       },
       {
-        "name2": "Betty Ross",
-        "actor2": "Liv Tyler",
-        "imageUrl2": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQdTiaBZT1Qj1H7HFnYhGFn6ivkVFht405PNS2KcaC3FIIeQOks"
+        "name": "Betty Ross",
+        "actor": "Liv Tyler",
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQdTiaBZT1Qj1H7HFnYhGFn6ivkVFht405PNS2KcaC3FIIeQOks"
       },
       {
-        "name3": "Emil Blonsky / Abomination",
-        "actor3": "Tim Roth",
-        "imageUrl3": "https://m.media-amazon.com/images/M/MV5BMjA5NTA3MDQyOV5BMl5BanBnXkFtZTcwODM4NDE3Mw@@._V1_FMjpg_UX1000_.jpg"
+        "name": "Emil Blonsky / Abomination",
+        "actor": "Tim Roth",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMjA5NTA3MDQyOV5BMl5BanBnXkFtZTcwODM4NDE3Mw@@._V1_FMjpg_UX1000_.jpg"
       }
     ]
   },
@@ -91,19 +91,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Tony Stark / Iron Man",
-        "actor1": "Robert Downey Jr.",
-        "imageUrl1": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
+        "name": "Tony Stark / Iron Man",
+        "actor": "Robert Downey Jr.",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
       },
       {
-        "name2": "Natalia Romanova / Black Widow",
-        "actor2": "Scarlett Johansson",
-        "imageUrl2": "https://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp"
+        "name": "Natalia Romanova / Black Widow",
+        "actor": "Scarlett Johansson",
+        "imageUrl": "https://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp"
       },
       {
-        "name3": "James Rhodes / War Machine",
-        "actor3": "Don Cheadle",
-        "imageUrl3": "https://cdn.britannica.com/95/216995-050-5E4D147A/American-actor-director-Don-Cheadle-2016.jpg"
+        "name": "James Rhodes / War Machine",
+        "actor": "Don Cheadle",
+        "imageUrl": "https://cdn.britannica.com/95/216995-050-5E4D147A/American-actor-director-Don-Cheadle-2016.jpg"
       }
     ]
   },
@@ -127,19 +127,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Thor",
-        "actor1": "Chris Hemsworth",
-        "imageUrl1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe"
+        "name": "Thor",
+        "actor": "Chris Hemsworth",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe"
       },
       {
-        "name2": "Loki",
-        "actor2": "Tom Hiddleston",
-        "imageUrl2": "https://media.vanityfair.com/photos/66050a8578f6c8e74b372ef6/master/w_2560%2Cc_limit/1398729436"
+        "name": "Loki",
+        "actor": "Tom Hiddleston",
+        "imageUrl": "https://media.vanityfair.com/photos/66050a8578f6c8e74b372ef6/master/w_2560%2Cc_limit/1398729436"
       },
       {
-        "name3": "Jane Foster",
-        "actor3": "Natalie Portman",
-        "imageUrl3": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQX7OGrgSH5rsJwWW2n5KdzUjL1SDsXCvNjl818LcTrh-ZsP3rPco6z-XU_P0DSwisnHLCgv38SmmwOSzA"
+        "name": "Jane Foster",
+        "actor": "Natalie Portman",
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQX7OGrgSH5rsJwWW2n5KdzUjL1SDsXCvNjl818LcTrh-ZsP3rPco6z-XU_P0DSwisnHLCgv38SmmwOSzA"
       }
     ]
   },
@@ -163,19 +163,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Steve Rogers / Captain America",
-        "actor1": "Chris Evans",
-        "imageUrl1": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
+        "name": "Steve Rogers / Captain America",
+        "actor": "Chris Evans",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
       },
       {
-        "name2": "Peggy Carter",
-        "actor2": "Hayley Atwell",
-        "imageUrl2": "https://www.pearlanddean.com/wp-content/uploads/2023/07/uuid87fd46a0-b9ab-41a7-af67-c96c20d99d44groupId10139t1689327260184.jpg"
+        "name": "Peggy Carter",
+        "actor": "Hayley Atwell",
+        "imageUrl": "https://www.pearlanddean.com/wp-content/uploads/2023/07/uuid87fd46a0-b9ab-41a7-af67-c96c20d99d44groupId10139t1689327260184.jpg"
       },
       {
-        "name3": "Johann Schmidt / Red Skull",
-        "actor3": "Hugo Weaving",
-        "imageUrl3": "https://static.ffx.io/images/$zoom_0.34986050194931767%2C$multiply_0.7554%2C$ratio_1.776846%2C$width_1059%2C$x_66%2C$y_505/t_crop_custom/q_86%2Cf_auto/c122ca454dcb6ad6ac5e8b0765c3a774c8e3ab0e"
+        "name": "Johann Schmidt / Red Skull",
+        "actor": "Hugo Weaving",
+        "imageUrl": "https://static.ffx.io/images/$zoom_0.34986050194931767%2C$multiply_0.7554%2C$ratio_1.776846%2C$width_1059%2C$x_66%2C$y_505/t_crop_custom/q_86%2Cf_auto/c122ca454dcb6ad6ac5e8b0765c3a774c8e3ab0e"
       }
     ]
   },
@@ -199,19 +199,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Tony Stark / Iron Man",
-        "actor1": "Robert Downey Jr.",
-        "imageUrl1": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
+        "name": "Tony Stark / Iron Man",
+        "actor": "Robert Downey Jr.",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
       },
       {
-        "name2": "Steve Rogers / Captain America",
-        "actor2": "Chris Evans",
-        "imageUrl2": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
+        "name": "Steve Rogers / Captain America",
+        "actor": "Chris Evans",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
       },
       {
-        "name3": "Bruce Banner / Hulk",
-        "actor3": "Mark Ruffalo",
-        "imageUrl3": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg/170px-Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg"
+        "name": "Bruce Banner / Hulk",
+        "actor": "Mark Ruffalo",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg/170px-Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg"
       }
     ]
   },
@@ -235,19 +235,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Tony Stark / Iron Man",
-        "actor1": "Robert Downey Jr.",
-        "imageUrl1": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
+        "name": "Tony Stark / Iron Man",
+        "actor": "Robert Downey Jr.",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
       },
       {
-        "name2": "Pepper Potts",
-        "actor2": "Gwyneth Paltrow",
-        "imageUrl2": "https://es.web.img3.acsta.net/c_310_420/pictures/15/08/12/12/18/463766.jpg"
+        "name": "Pepper Potts",
+        "actor": "Gwyneth Paltrow",
+        "imageUrl": "https://es.web.img3.acsta.net/c_310_420/pictures/15/08/12/12/18/463766.jpg"
       },
       {
-        "name3": "Aldrich Killian",
-        "actor3": "Guy Pearce",
-        "imageUrl3": "https://es.web.img2.acsta.net/c_310_420/pictures/15/07/22/12/52/040647.jpg"
+        "name": "Aldrich Killian",
+        "actor": "Guy Pearce",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/15/07/22/12/52/040647.jpg"
       }
     ]
   },
@@ -273,19 +273,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Thor",
-        "actor1": "Chris Hemsworth",
-        "imageUrl1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe"
+        "name": "Thor",
+        "actor": "Chris Hemsworth",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe"
       },
       {
-        "name2": "Loki",
-        "actor2": "Tom Hiddleston",
-        "imageUrl2": "https://media.vanityfair.com/photos/66050a8578f6c8e74b372ef6/master/w_2560%2Cc_limit/1398729436"
+        "name": "Loki",
+        "actor": "Tom Hiddleston",
+        "imageUrl": "https://media.vanityfair.com/photos/66050a8578f6c8e74b372ef6/master/w_2560%2Cc_limit/1398729436"
       },
       {
-        "name3": "Jane Foster",
-        "actor3": "Natalie Portman",
-        "imageUrl3": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQX7OGrgSH5rsJwWW2n5KdzUjL1SDsXCvNjl818LcTrh-ZsP3rPco6z-XU_P0DSwisnHLCgv38SmmwOSzA"
+        "name": "Jane Foster",
+        "actor": "Natalie Portman",
+        "imageUrl": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQX7OGrgSH5rsJwWW2n5KdzUjL1SDsXCvNjl818LcTrh-ZsP3rPco6z-XU_P0DSwisnHLCgv38SmmwOSzA"
       }
     ]
   },
@@ -309,19 +309,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Steve Rogers / Captain America",
-        "actor1": "Chris Evans",
-        "imageUrl1": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
+        "name": "Steve Rogers / Captain America",
+        "actor": "Chris Evans",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
       },
       {
-        "name2": "Bucky Barnes / Winter Soldier",
-        "actor2": "Sebastian Stan",
-        "imageUrl2": "https://assets.dev-filo.dift.io/img/2022/07/28/sebastian_stan_sq.jpg"
+        "name": "Bucky Barnes / Winter Soldier",
+        "actor": "Sebastian Stan",
+        "imageUrl": "https://assets.dev-filo.dift.io/img/2022/07/28/sebastian_stan_sq.jpg"
       },
       {
-        "name3": "Natasha Romanoff / Black Widow",
-        "actor3": "Scarlett Johansson",
-        "imageUrl3": "https://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp"
+        "name": "Natasha Romanoff / Black Widow",
+        "actor": "Scarlett Johansson",
+        "imageUrl": "https://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp"
       }
     ]
   },
@@ -345,19 +345,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Peter Quill / Star-Lord",
-        "actor1": "Chris Pratt",
-        "imageUrl1": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/249381_v9_bc.jpg"
+        "name": "Peter Quill / Star-Lord",
+        "actor": "Chris Pratt",
+        "imageUrl": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/249381_v9_bc.jpg"
       },
       {
-        "name2": "Gamora",
-        "actor2": "Zoe Saldana",
-        "imageUrl2": "https://assets.telegraphindia.com/telegraph/2023/Jun/1686827029_zoe-saldana.jpg"
+        "name": "Gamora",
+        "actor": "Zoe Saldana",
+        "imageUrl": "https://assets.telegraphindia.com/telegraph/2023/Jun/1686827029_zoe-saldana.jpg"
       },
       {
-        "name3": "Drax the Destroyer",
-        "actor3": "Dave Bautista",
-        "imageUrl3": "https://people.com/thmb/CruPsjVRgE0NH-cQbH6Rflkpt6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(779x319:781x321)/sexy-every-age-4-5e0dfeed3fb040c69b6b5eacdf1b2a3b.jpg"
+        "name": "Drax the Destroyer",
+        "actor": "Dave Bautista",
+        "imageUrl": "https://people.com/thmb/CruPsjVRgE0NH-cQbH6Rflkpt6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(779x319:781x321)/sexy-every-age-4-5e0dfeed3fb040c69b6b5eacdf1b2a3b.jpg"
       }
     ]
   },
@@ -381,19 +381,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Tony Stark / Iron Man",
-        "actor1": "Robert Downey Jr.",
-        "imageUrl1": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
+        "name": "Tony Stark / Iron Man",
+        "actor": "Robert Downey Jr.",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
       },
       {
-        "name2": "Steve Rogers / Captain America",
-        "actor2": "Chris Evans",
-        "imageUrl2": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
+        "name": "Steve Rogers / Captain America",
+        "actor": "Chris Evans",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
       },
       {
-        "name3": "Bruce Banner / Hulk",
-        "actor3": "Mark Ruffalo",
-        "imageUrl3": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg/170px-Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg"
+        "name": "Bruce Banner / Hulk",
+        "actor": "Mark Ruffalo",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg/170px-Mark_Ruffalo_at_the_Toronto_premiere_of_The_Avengers_%28cropped%29.jpg"
       }
     ]
   },
@@ -417,19 +417,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Scott Lang / Ant-Man",
-        "actor1": "Paul Rudd",
-        "imageUrl1": "https://es.web.img2.acsta.net/pictures/18/04/24/11/17/4714754.jpg"
+        "name": "Scott Lang / Ant-Man",
+        "actor": "Paul Rudd",
+        "imageUrl": "https://es.web.img2.acsta.net/pictures/18/04/24/11/17/4714754.jpg"
       },
       {
-        "name2": "Hope van Dyne",
-        "actor2": "Evangeline Lilly",
-        "imageUrl2": "https://st4.depositphotos.com/5326338/20651/i/380/depositphotos_206518834-stock-photo-actress-evangeline-lilly-los-angeles.jpg"
+        "name": "Hope van Dyne",
+        "actor": "Evangeline Lilly",
+        "imageUrl": "https://st4.depositphotos.com/5326338/20651/i/380/depositphotos_206518834-stock-photo-actress-evangeline-lilly-los-angeles.jpg"
       },
       {
-        "name3": "Darren Cross / Yellowjacket",
-        "actor3": "Corey Stoll",
-        "imageUrl3": "https://image.tmdb.org/t/p/w500/etqmosIyf1xePKpi3i6rHJCm9GE.jpg"
+        "name": "Darren Cross / Yellowjacket",
+        "actor": "Corey Stoll",
+        "imageUrl": "https://image.tmdb.org/t/p/w500/etqmosIyf1xePKpi3i6rHJCm9GE.jpg"
       }
     ]
   },
@@ -453,19 +453,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Steve Rogers / Captain America",
-        "actor1": "Chris Evans",
-        "imageUrl1": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
+        "name": "Steve Rogers / Captain America",
+        "actor": "Chris Evans",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
       },
       {
-        "name2": "Tony Stark / Iron Man",
-        "actor2": "Robert Downey Jr.",
-        "imageUrl2": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
+        "name": "Tony Stark / Iron Man",
+        "actor": "Robert Downey Jr.",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
       },
       {
-        "name3": "Natasha Romanoff / Black Widow",
-        "actor3": "Scarlett Johansson",
-        "imageUrl3": "https://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp"
+        "name": "Natasha Romanoff / Black Widow",
+        "actor": "Scarlett Johansson",
+        "imageUrl": "https://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp"
       }
     ]
   },
@@ -489,19 +489,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Dr. Stephen Strange",
-        "actor1": "Benedict Cumberbatch",
-        "imageUrl1": "https://hips.hearstapps.com/hmg-prod/images/210728-se-esquire-benedict-cumberbatch-shot-02-019-fin3-flat-1636369360.png"
+        "name": "Dr. Stephen Strange",
+        "actor": "Benedict Cumberbatch",
+        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/210728-se-esquire-benedict-cumberbatch-shot-02-019-fin3-flat-1636369360.png"
       },
       {
-        "name2": "Christine Palmer",
-        "actor2": "Rachel McAdams",
-        "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rachel_McAdams_by_Gage_Skidmore.jpg/1200px-Rachel_McAdams_by_Gage_Skidmore.jpg"
+        "name": "Christine Palmer",
+        "actor": "Rachel McAdams",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Rachel_McAdams_by_Gage_Skidmore.jpg/1200px-Rachel_McAdams_by_Gage_Skidmore.jpg"
       },
       {
-        "name3": "Karl Mordo",
-        "actor3": "Chiwetel Ejiofor",
-        "imageUrl3": "https://upload.wikimedia.org/wikipedia/commons/7/76/Chiwetel_Ejiofor_TIFF_2015.jpg"
+        "name": "Karl Mordo",
+        "actor": "Chiwetel Ejiofor",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Chiwetel_Ejiofor_TIFF_2015.jpg"
       }
     ]
   },
@@ -525,19 +525,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Peter Quill / Star-Lord",
-        "actor1": "Chris Pratt",
-        "imageUrl1": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/249381_v9_bc.jpg"
+        "name": "Peter Quill / Star-Lord",
+        "actor": "Chris Pratt",
+        "imageUrl": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/249381_v9_bc.jpg"
       },
       {
-        "name2": "Gamora",
-        "actor2": "Zoe Saldana",
-        "imageUrl2": "https://assets.telegraphindia.com/telegraph/2023/Jun/1686827029_zoe-saldana.jpg"
+        "name": "Gamora",
+        "actor": "Zoe Saldana",
+        "imageUrl": "https://assets.telegraphindia.com/telegraph/2023/Jun/1686827029_zoe-saldana.jpg"
       },
       {
-        "name3": "Drax the Destroyer",
-        "actor3": "Dave Bautista",
-        "imageUrl3": "https://people.com/thmb/CruPsjVRgE0NH-cQbH6Rflkpt6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(779x319:781x321)/sexy-every-age-4-5e0dfeed3fb040c69b6b5eacdf1b2a3b.jpg"
+        "name": "Drax the Destroyer",
+        "actor": "Dave Bautista",
+        "imageUrl": "https://people.com/thmb/CruPsjVRgE0NH-cQbH6Rflkpt6k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(779x319:781x321)/sexy-every-age-4-5e0dfeed3fb040c69b6b5eacdf1b2a3b.jpg"
       }
     ]
   },
@@ -561,19 +561,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Peter Parker / Spider-Man",
-        "actor1": "Tom Holland",
-        "imageUrl1": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/640px-Tom_Holland_by_Gage_Skidmore.jpg"
+        "name": "Peter Parker / Spider-Man",
+        "actor": "Tom Holland",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/640px-Tom_Holland_by_Gage_Skidmore.jpg"
       },
       {
-        "name2": "Adrian Toomes / Vulture",
-        "actor2": "Michael Keaton",
-        "imageUrl2": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1127231094.jpg"
+        "name": "Adrian Toomes / Vulture",
+        "actor": "Michael Keaton",
+        "imageUrl": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-1127231094.jpg"
       },
       {
-        "name3": "Michelle 'MJ' Jones",
-        "actor3": "Zendaya",
-        "imageUrl3": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Zendaya_-_2019_by_Glenn_Francis.jpg/1200px-Zendaya_-_2019_by_Glenn_Francis.jpg"
+        "name": "Michelle 'MJ' Jones",
+        "actor": "Zendaya",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Zendaya_-_2019_by_Glenn_Francis.jpg/1200px-Zendaya_-_2019_by_Glenn_Francis.jpg"
       }
     ]
   },
@@ -597,19 +597,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Thor",
-        "actor1": "Chris Hemsworth",
-        "imageUrl1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe"
+        "name": "Thor",
+        "actor": "Chris Hemsworth",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe"
       },
       {
-        "name2": "Loki",
-        "actor2": "Tom Hiddleston",
-        "imageUrl2": "https://media.vanityfair.com/photos/66050a8578f6c8e74b372ef6/master/w_2560%2Cc_limit/1398729436"
+        "name": "Loki",
+        "actor": "Tom Hiddleston",
+        "imageUrl": "https://media.vanityfair.com/photos/66050a8578f6c8e74b372ef6/master/w_2560%2Cc_limit/1398729436"
       },
       {
-        "name3": "Hela",
-        "actor3": "Cate Blanchett",
-        "imageUrl3": "https://m.media-amazon.com/images/M/MV5BMTc1MDI0MDg1NV5BMl5BanBnXkFtZTgwMDM3OTAzMTE@._V1_FMjpg_UX1000_.jpg"
+        "name": "Hela",
+        "actor": "Cate Blanchett",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTc1MDI0MDg1NV5BMl5BanBnXkFtZTgwMDM3OTAzMTE@._V1_FMjpg_UX1000_.jpg"
       }
     ]
   },
@@ -635,19 +635,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "T'Challa / Black Panther",
-        "actor1": "Chadwick Boseman",
-        "imageUrl1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRihboW-OFFzindD8MjRRZksYUVbqkRRObmPA&s"
+        "name": "T'Challa / Black Panther",
+        "actor": "Chadwick Boseman",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRihboW-OFFzindD8MjRRZksYUVbqkRRObmPA&s"
       },
       {
-        "name2": "Erik Killmonger",
-        "actor2": "Michael B. Jordan",
-        "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Michael_B._Jordan_Cannes_2018.jpg/1200px-Michael_B._Jordan_Cannes_2018.jpg"
+        "name": "Erik Killmonger",
+        "actor": "Michael B. Jordan",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Michael_B._Jordan_Cannes_2018.jpg/1200px-Michael_B._Jordan_Cannes_2018.jpg"
       },
       {
-        "name3": "Nakia",
-        "actor3": "Lupita Nyong'o",
-        "imageUrl3": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lupita_Nyong%27o_by_Gage_Skidmore_4.jpg/1200px-Lupita_Nyong%27o_by_Gage_Skidmore_4.jpg"
+        "name": "Nakia",
+        "actor": "Lupita Nyong'o",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Lupita_Nyong%27o_by_Gage_Skidmore_4.jpg/1200px-Lupita_Nyong%27o_by_Gage_Skidmore_4.jpg"
       }
     ]
   },
@@ -671,19 +671,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Tony Stark / Iron Man",
-        "actor1": "Robert Downey Jr.",
-        "imageUrl1": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
+        "name": "Tony Stark / Iron Man",
+        "actor": "Robert Downey Jr.",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
       },
       {
-        "name2": "Steve Rogers / Captain America",
-        "actor2": "Chris Evans",
-        "imageUrl2": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
+        "name": "Steve Rogers / Captain America",
+        "actor": "Chris Evans",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
       },
       {
-        "name3": "Thanos",
-        "actor3": "Josh Brolin",
-        "imageUrl3": "https://pyxis.nymag.com/v1/imgs/654/ab4/c4d53abf0326f8e9dc9635eb42080fadf2-20-josh-brolin.rsquare.w330.jpg"
+        "name": "Thanos",
+        "actor": "Josh Brolin",
+        "imageUrl": "https://pyxis.nymag.com/v1/imgs/654/ab4/c4d53abf0326f8e9dc9635eb42080fadf2-20-josh-brolin.rsquare.w330.jpg"
       }
     ]
   },
@@ -707,19 +707,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Scott Lang / Ant-Man",
-        "actor1": "Paul Rudd",
-        "imageUrl1": "https://es.web.img2.acsta.net/pictures/18/04/24/11/17/4714754.jpg"
+        "name": "Scott Lang / Ant-Man",
+        "actor": "Paul Rudd",
+        "imageUrl": "https://es.web.img2.acsta.net/pictures/18/04/24/11/17/4714754.jpg"
       },
       {
-        "name2": "Hope van Dyne / The Wasp",
-        "actor2": "Evangeline Lilly",
-        "imageUrl2": "https://st4.depositphotos.com/5326338/20651/i/380/depositphotos_206518834-stock-photo-actress-evangeline-lilly-los-angeles.jpg"
+        "name": "Hope van Dyne / The Wasp",
+        "actor": "Evangeline Lilly",
+        "imageUrl": "https://st4.depositphotos.com/5326338/20651/i/380/depositphotos_206518834-stock-photo-actress-evangeline-lilly-los-angeles.jpg"
       },
       {
-        "name3": "Hank Pym",
-        "actor3": "Michael Douglas",
-        "imageUrl3": "https://upload.wikimedia.org/wikipedia/commons/3/38/Michael_Douglas_C%C3%A9sar_2016_3.jpg"
+        "name": "Hank Pym",
+        "actor": "Michael Douglas",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Michael_Douglas_C%C3%A9sar_2016_3.jpg"
       }
     ]
   },
@@ -745,19 +745,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Carol Danvers / Captain Marvel",
-        "actor1": "Brie Larson",
-        "imageUrl1": "https://www.shefinds.com/files/2023/06/Brie-Larson-9th-Annual-Breakthrough-Prize-Ceremony.jpg"
+        "name": "Carol Danvers / Captain Marvel",
+        "actor": "Brie Larson",
+        "imageUrl": "https://www.shefinds.com/files/2023/06/Brie-Larson-9th-Annual-Breakthrough-Prize-Ceremony.jpg"
       },
       {
-        "name2": "Nick Fury",
-        "actor2": "Samuel L. Jackson",
-        "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/SamuelLJackson.jpg/640px-SamuelLJackson.jpg"
+        "name": "Nick Fury",
+        "actor": "Samuel L. Jackson",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/SamuelLJackson.jpg/640px-SamuelLJackson.jpg"
       },
       {
-        "name3": "Talos",
-        "actor3": "Ben Mendelsohn",
-        "imageUrl3": "https://upload.wikimedia.org/wikipedia/commons/3/36/Ben_Mendelsohn_by_Gage_Skidmore.jpg"
+        "name": "Talos",
+        "actor": "Ben Mendelsohn",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Ben_Mendelsohn_by_Gage_Skidmore.jpg"
       }
     ]
   },
@@ -781,19 +781,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Tony Stark / Iron Man",
-        "actor1": "Robert Downey Jr.",
-        "imageUrl1": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
+        "name": "Tony Stark / Iron Man",
+        "actor": "Robert Downey Jr.",
+        "imageUrl": "https://es.web.img2.acsta.net/c_310_420/pictures/22/03/21/14/03/3443055.jpg"
       },
       {
-        "name2": "Steve Rogers / Captain America",
-        "actor2": "Chris Evans",
-        "imageUrl2": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
+        "name": "Steve Rogers / Captain America",
+        "actor": "Chris Evans",
+        "imageUrl": "https://media.revistavanityfair.es/photos/60e83484220d3ca7e332c565/master/w_1600%2Cc_limit/163789.jpg"
       },
       {
-        "name3": "Thor",
-        "actor3": "Chris Hemsworth",
-        "imageUrl3": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe"
+        "name": "Thor",
+        "actor": "Chris Hemsworth",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxCgUxxr_WRgrfE58S5lfp5UUgB5r_F-RGaNPLZh0lR2y2UNe"
       }
     ]
   },
@@ -817,19 +817,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Peter Parker / Spider-Man",
-        "actor1": "Tom Holland",
-        "imageUrl1": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/640px-Tom_Holland_by_Gage_Skidmore.jpg"
+        "name": "Peter Parker / Spider-Man",
+        "actor": "Tom Holland",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Tom_Holland_by_Gage_Skidmore.jpg/640px-Tom_Holland_by_Gage_Skidmore.jpg"
       },
       {
-        "name2": "Quentin Beck / Mysterio",
-        "actor2": "Jake Gyllenhaal",
-        "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Jake_Gyllenhaal_2019_by_Glenn_Francis.jpg"
+        "name": "Quentin Beck / Mysterio",
+        "actor": "Jake Gyllenhaal",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Jake_Gyllenhaal_2019_by_Glenn_Francis.jpg"
       },
       {
-        "name3": "Michelle 'MJ' Jones",
-        "actor3": "Zendaya",
-        "imageUrl3": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Zendaya_-_2019_by_Glenn_Francis.jpg/1200px-Zendaya_-_2019_by_Glenn_Francis.jpg"
+        "name": "Michelle 'MJ' Jones",
+        "actor": "Zendaya",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Zendaya_-_2019_by_Glenn_Francis.jpg/1200px-Zendaya_-_2019_by_Glenn_Francis.jpg"
       }
     ]
   },
@@ -853,19 +853,19 @@ export default [
     },
     "characters": [
       {
-        "name1": "Natasha Romanoff / Black Widow",
-        "actor1": "Scarlett Johansson",
-        "imageUrl1": "https://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp"
+        "name": "Natasha Romanoff / Black Widow",
+        "actor": "Scarlett Johansson",
+        "imageUrl": "https://static01.nyt.com/images/2024/07/14/multimedia/14SCARLETT-JOHANSSON-COVER-tjhc/14SCARLETT-JOHANSSON-COVER-tjhc-superJumbo.jpg?quality=75&auto=webp"
       },
       {
-        "name2": "Yelena Belova",
-        "actor2": "Florence Pugh",
-        "imageUrl2": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Florence_Pugh_-_The_Wonder_BFI_London_Film_Festival_Premiere%2C_October_2022.jpg"
+        "name": "Yelena Belova",
+        "actor": "Florence Pugh",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Florence_Pugh_-_The_Wonder_BFI_London_Film_Festival_Premiere%2C_October_2022.jpg"
       },
       {
-        "name3": "Alexei Shostakov / Red Guardian",
-        "actor3": "David Harbour",
-        "imageUrl3": "https://upload.wikimedia.org/wikipedia/commons/7/7b/David_Harbour_by_Gage_Skidmore_2.jpg"
+        "name": "Alexei Shostakov / Red Guardian",
+        "actor": "David Harbour",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/David_Harbour_by_Gage_Skidmore_2.jpg"
       }
     ]
   }
