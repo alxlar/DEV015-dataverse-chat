@@ -18,7 +18,7 @@ export default function Home() {
   const cardsElement = rootElement.querySelector('#home');
 
   // Carga de elementos ul
-  let items = renderItems(data);
+  const items = renderItems(data);
   cardsElement.appendChild(items);
 
   // Llamar las funciones con ids
@@ -54,7 +54,6 @@ export default function Home() {
   rootElement.querySelectorAll('.play-button').forEach(button => {
     button.addEventListener('click', event => {
       const trailerUrl = event.target.getAttribute('data-trailer');
-      console.log("trailerUrl " + trailerUrl);
       showTrailerModal(trailerUrl);
     });
   });
@@ -79,7 +78,6 @@ export default function Home() {
     ulElement.querySelectorAll('.play-button').forEach(button => {
       button.addEventListener('click', event => {
         const trailerUrl = event.target.getAttribute('data-trailer');
-        console.log("trailerUrl " + trailerUrl);
         showTrailerModal(trailerUrl);
       });
     });
@@ -94,7 +92,6 @@ export default function Home() {
   }
 
   function initStatistics() {
-    console.log("initStatistics");
     // Calcular el rating promedio
     const averageRating = calculateAverageRating(data);
     // Calcular el total de premios recibidos
