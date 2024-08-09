@@ -1,3 +1,5 @@
+@import "../components/detailsComponets.css";
+
 body {
   font-family: "DM Sans", sans-serif;
   margin: 0px;
@@ -5,7 +7,8 @@ body {
   flex-direction: column;
 
 }
-header {
+
+.header-home {
   background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)),
     url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/03/Vengadores%20Infinity%20War.jpg?tf=2048x");
   background-size: cover;

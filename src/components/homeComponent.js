@@ -1,6 +1,6 @@
 export const homeComponent = () => {
   const infoHome = `
-  <header>
+  <header class="header-home">
     <div class="logo">
       <img src="path/to/logo.png" alt="Marvel Logo">
     </div>
