@@ -3,24 +3,77 @@ body {
   margin: 0px;
   display: flex;
   flex-direction: column;
-
+  background-color: #171B1E;
 }
 header {
-  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)),
-    url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2019/03/Vengadores%20Infinity%20War.jpg?tf=2048x");
+  background-image: linear-gradient(to right,rgba(5, 7, 12, 0.8), rgba(5, 7, 12, 0.4)),
+    url("../assets/avengersPortada.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   color: white;
-  padding-top: 80px;
-  padding-bottom: 30px;
+  padding-top: 6px;
+  padding-bottom: 55px;
   padding-left: 80px;
+  padding-right: 80px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+.menu {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 10px; 
+}
+
+.search-bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 10px 130px 10px 15px; 
+  border-radius: 6px;
+  background-color: #262B2F; 
+  color: #ccc; 
+  font-size: 14px;
+  border: 2px solid transparent;
+  outline: none;
+}
+
+.search-bar img {
+  position: absolute;
+  right: 10px; 
+  width: 16px;
+  height: 16px;
+  border: none;
+}
+
+.search-bar input:focus {
+  border-color: #494d50; 
+}
+
+.api-key-button button {
+  background-color: #FFD43B; 
+  color: #161A1D; 
+  padding: 10px 37px; 
+  border-radius: 6px;
+  cursor: pointer; 
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  font-family: "DM Sans";
 }
 
 h1 {
   font-size: 56px;
   width: 520px;
   height: 120px;
-  margin: 5px;
+  margin: 44px 5px 5px 5px;
   line-height: 1;
 }
 h2 {
@@ -79,19 +132,17 @@ option {
   border-radius: 6px;
   margin-right: 20px;
 }
+
+select#sort{
+  border: none;
+  padding: 5px;
+  margin: 0px;
+}
+
+
 #sort {
   border-radius: 6px;
   margin-right: 25px;
-}
-
-#button-clear {
-  font-size: 14px;
-  height: 33.5px;
-  border-radius: 6px;
-  width: 120px;
-  border-color: #ffc700;
-  background-color: #ffc700;
-  border: 0px;
 }
 
 main {
@@ -107,10 +158,10 @@ footer {
   font-size: 18px;
   font-weight: bold;
   padding-bottom: 2%;
-
+color: #262B2F;
 }
 
-img {
+.movie-image {
   width: 215px;
   height: 318.2px;
   border-radius: 14px;
@@ -140,15 +191,34 @@ dd {
 }
 [itemprop="name"] {
   font-weight: bold;
-  color: black;
+  color: #FFFFFF;
   font-size: 19px;
 }
 [itemprop="year"] {
   font-weight: 600;
-  color: #8e8f91;
+  color: #BCBCBC;
   font-size: 14px;
 }
+[itemprop="shortDescription"] {
+  font-size: 14px;
+  color: #BCBCBC;
+  }
 
+[itemprop="director"] {
+    font-size: 14px;
+    color: #BCBCBC;
+   }  
+
+[itemprop="duration"] {
+    font-size: 14px;
+    color: #BCBCBC;
+    }   
+
+[itemprop="rating"] {
+      font-size: 14px;
+      color: #BCBCBC;
+      }       
+  
 dl {
   display: flex;
 }
@@ -169,11 +239,10 @@ dl {
 }
 
 .rating-image {
-  width: 30px; /* Ancho deseado */
+  width: 30px; 
   height: auto;
 }
 
-/* Estilo base para los elementos que contienen los números */
 .stats .stat-item {
   font-size: 24px;
   font-weight: bold;
@@ -214,6 +283,7 @@ dl {
 .item {
   position: relative;
   display: inline-block;
+  background-color: #262B2F;
 }
 
 .item:hover .play-button {
@@ -226,14 +296,14 @@ dl {
 }
 
 .movie-image {
-  display: block; /* Asegura que la imagen no tenga márgenes por defecto */
-  width: 154px; /* Asegura que la imagen tome todo el espacio del contenedor */
+  display: block; 
+  width: 154px; 
   height: auto;
   border-radius: 10px;
 }
 
 .play-button {
-  display: none; /* Escondemos el botón inicialmente */
+  display: none; 
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -263,6 +333,150 @@ html, body {
 .filter-menu-toggle {
   display: none;
 }
+
+.featureMovie{
+color: white;
+}
+
+.filter-item label {
+  font-size: 14px; 
+  color: #333; 
+  margin-bottom: 5px; 
+  font-weight: bold; 
+  display: block;
+  text-transform: uppercase; 
+}
+
+.filter-menu {
+  display: flex; 
+  align-items: center; 
+  gap: 10px;
+  flex-wrap: wrap; 
+}
+
+.filter-item {
+  display: flex; 
+  align-items: center; 
+  gap: 5px; 
+  padding: 5px; 
+  background-color: #f0f0f0;
+  border-radius: 5px; 
+}
+
+.filter-icon {
+  width: 20px; 
+  height: 20px; 
+}
+
+.filter-item label {
+  margin: 0; 
+}
+
+.filter-item select {
+  margin-left: 5px; 
+}
+
+.filter-menu {
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+  flex-wrap: wrap; 
+}
+
+.filter-item {
+  display: grid; 
+  grid-template-rows: auto 1fr; 
+  grid-template-columns: auto; 
+  gap: 5px; 
+  padding: 10px 10px 10px 20px; 
+  background-color: #262B2F; 
+  border-radius: 10px; 
+  width: 120px; 
+  text-align: center; 
+}
+.filter-header {
+  display: flex; 
+  align-items: center; 
+  justify-content: start; 
+  gap: 5px; 
+}
+
+.filter-icon {
+  width: 24px; 
+  height: 24px; 
+}
+
+.filter-label {
+  font-weight: bold;
+  color: #8E9193;
+  font-size: 13px;
+  font-family: "DM Sans";
+}
+
+.filter-item select {
+  grid-row: 2; 
+  width: 100%; 
+  border: none; 
+  background-color: #262B2F; 
+  border-radius: 4px; 
+  font-size: 13px; 
+  outline: none; 
+  color: white;
+    border: none;
+    padding: 5px;
+    margin: 0px;
+}
+  
+
+#button-clear {
+  background-color: #FFD43B; 
+  font-family: "DM Sans";
+  color: #161A1D; 
+  padding: 30px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-size: 12px; 
+    font-weight: bold; 
+    border: none;
+}
+
+.options {
+  background-color: #262B2F;
+  color: white;
+  padding: 8px; 
+  font-size: 13px;
+  border: none; 
+  font-family: "DM Sans";
+  outline: none;
+}
+
+.viewmore-button {
+  display: none;
+}
+
+.chat-button {
+  background-color: #FFD43B;
+  color: #161A1D;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
+  font-family: "DM Sans";
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0px;
+  margin: 0px 0px 0px 39px;
+}
+
+.chat-icon {
+  width: 20px;              
+  height: 20px;             
+  margin-right: 5px;        
+}
+
 
 @media (max-width: 768px) {
   header {
@@ -296,6 +510,7 @@ html, body {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+
   }
 
   .item {
@@ -323,6 +538,7 @@ html, body {
 
   [itemprop="name"] {
   font-size: 14px;
+  color: #FFFFFF;
   }
 
   .stat-item div:first-child {
@@ -366,8 +582,8 @@ html, body {
   }
 
   .filter-menu.show {
-    display: block; /* Asegura que el menú de filtros esté visible por defecto */
-    position: absolute; /* Cambia a estático para la vista web estándar */
+    display: block; 
+    position: absolute;
     padding: 10px;
     box-sizing: border-box;
   }
@@ -394,6 +610,7 @@ html, body {
     color:#fff;
     padding-left: 32px;
     font-weight: bold;
+    font-family: "DM Sans";
   }
 
   .img-menu {
