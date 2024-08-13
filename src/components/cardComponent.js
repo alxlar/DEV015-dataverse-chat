@@ -1,3 +1,6 @@
+import { navigateTo } from '../routes.js';
+
+
 export const renderItems = (data) => {
   // Creación elemento <ul> utilizando createElement
   const ulElement = document.createElement('ul');
@@ -36,6 +39,13 @@ export const renderItems = (data) => {
       </section>
       </dl>
     `;
+
+    // Agrega el evento click al botón "View more"
+    const viewMoreButton = liElement.querySelector('.viewmore-button');
+    viewMoreButton.addEventListener('click', () => {
+      const movieId = item.id; // Asegúrate de que el objeto `item` tenga un campo `slug`
+      navigateTo("/about", { id: movieId });
+    });
 
     // Agregar cada <li> al <ul> utilizando appendChild
     ulElement.appendChild(liElement);

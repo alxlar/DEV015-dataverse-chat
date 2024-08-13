@@ -1,9 +1,11 @@
 import { setRootEl, setRoutes, onURLChange } from './routes.js';
 import Home  from './views/Home.js';
+import About  from './views/About.js';
 import Error from "./views/Error.js";
 
 const routes = {
   '/': Home,
+  '/about': About,
   '/error': Error
   // ...
 };
