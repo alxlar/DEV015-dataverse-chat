@@ -1,3 +1,4 @@
+import { navigateTo } from '../routes.js';
 import {
   filterDataYear,
   filterDataRating,
@@ -42,6 +43,12 @@ export default function Home() {
 
   buttonClear.addEventListener('click', clearFilters);
   sort.value = 'asc';
+
+  const apiKeyButton = rootElement.querySelector('.api-key-button');
+  apiKeyButton.addEventListener('click', () => {
+    navigateTo("/api-key");
+  });
+
 
   searchInput.addEventListener('input', () => {
     const query = searchInput.value.toLowerCase();
