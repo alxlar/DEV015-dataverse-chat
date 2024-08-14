@@ -2,12 +2,18 @@ export const detailsComponent = (item) => {
 
   const element = `
     <header class="header-details">
+        <section class="menu">
       <div class="logo">
-        <img src="path/to/logo.png" alt="Marvel Logo">
+        <img src="assets/marvel_logo.png" alt="Marvel Logo">
+      </div>
+      <div class="search-bar">
+        <img src="assets/search_icon.png" alt="Search Icon" class="search-icon">
+        <input type="text" placeholder="Find your favorite movie">
       </div>
       <div class="api-key-button">
         <button>API Key</button>
       </div>
+    </section>
     </header>
     <div class="details-container">
       <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>
@@ -52,3 +58,4 @@ export const detailsComponent = (item) => {
 
   return element;
 }
+
