@@ -81,5 +81,6 @@ export const homeComponent = () => {
 
 <section id="home"></section>
   `;
+
   return infoHome;
 }

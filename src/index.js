@@ -1,13 +1,14 @@
 import { setRootEl, setRoutes, onURLChange } from './routes.js';
 import Home  from './views/Home.js';
-import details  from './views/details.js';
+import Details  from './views/Details.js';
+import ApikeyView from './views/ApikeyView.js'
 import Error from "./views/Error.js";
 
 const routes = {
   '/': Home,
-  '/about': details,
+  '/about': Details,
+  '/api-key': ApikeyView,
   '/error': Error
-  // ...
 };
 
 // Assign the routes
