@@ -1,3 +1,4 @@
+
 import data from "../data/dataset.js";
 import { detailsComponent } from "../components/detailsComponent.js";
 import { getMovieById } from "../lib/dataFunctions.js"
@@ -20,7 +21,7 @@ export default function About() {
   // Verifica si el elemento existe
 if (backgrounHeader) {
   // Agrega la imagen de fondo utilizando la URL dinámica
-  backgrounHeader.style.backgroundImage = `url(${backgroundImageUrl})`;
+  backgrounHeader.style.backgroundImage = `linear-gradient(to bottom,rgba(5, 7, 12, 0.8), rgba(5, 7, 12, 0.4)),url(${backgroundImageUrl})`;
 }
 
   function showTrailerModal(trailerUrl) {
@@ -55,3 +56,4 @@ if (backgrounHeader) {
 
   return rootElement;
 }
+
