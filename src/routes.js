@@ -26,15 +26,15 @@ const queryStringToObject = (queryString) => {
 };
 export const navigateTo = (pathname, props = {}) => {
 
-  var queryString = ""
-  if(props && Object.keys(props).length){
+  let queryString = ""
+  if (props && Object.keys(props).length) {
     queryString = Object.keys(props)
-    .map((key) => `${key}=${props[key]}`)
-    .join("&");
+      .map((key) => `${key}=${props[key]}`)
+      .join("&");
 
   }
 
-  const fullPath = queryString?  `${pathname}?${queryString}`:pathname;
+  const fullPath = queryString ? `${pathname}?${queryString}` : pathname;
 
   window.history.pushState({}, "", fullPath);
 
