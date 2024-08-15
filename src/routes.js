@@ -1,29 +1,22 @@
 let ROUTES = {};
-let rootEl;
+let ROOT;
 
 export const setRootEl = (el) => {
-  rootEl = el;
+  ROOT = el;
 };
 
 export const setRoutes = (routes) => {
-  if (typeof routes !== "object") {
-    throw new Error("This is not an object");
-  }
-  if (!routes["/error"]) {
-    throw new Error(
-      "Routes must define an /error route with a function handler"
-    );
-  }
+
   ROUTES = routes;
 };
 const renderView = (pathname, props = {}) => {
-  rootEl.innerHTML = "";
+  ROOT.innerHTML = "";
 
   const view = ROUTES[pathname] || ROUTES["/error"];
 
   const viewElement = view(props);
 
-  rootEl.appendChild(viewElement);
+  ROOT.appendChild(viewElement);
 };
 
 const queryStringToObject = (queryString) => {
@@ -32,11 +25,16 @@ const queryStringToObject = (queryString) => {
   return obj;
 };
 export const navigateTo = (pathname, props = {}) => {
-  const queryString = Object.keys(props)
-    .map((key) => `${key}=${props[key]}`)
-    .join("&");
 
-  const fullPath = `${pathname}?${queryString}`;
+  let queryString = ""
+  if (props && Object.keys(props).length) {
+    queryString = Object.keys(props)
+      .map((key) => `${key}=${props[key]}`)
+      .join("&");
+
+  }
+
+  const fullPath = queryString ? `${pathname}?${queryString}` : pathname;
 
   window.history.pushState({}, "", fullPath);
 

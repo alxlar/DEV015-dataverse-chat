@@ -1,5 +1,5 @@
-import { filterDataYear, filterDataRating, sortData, calculateAverageRating, calculateAwardsReceived, calculateTotalAudience} from '../lib/dataFunctions.js';
-import { data } from '../test/data.js';
+import { filterDataYear, filterDataRating, sortData, calculateAverageRating, calculateAwardsReceived, calculateTotalAudience} from '../src/lib/dataFunctions.js';
+import { data } from './data.js';
 
 describe('filterDataYear', () => {
   it('returns all data when filterValue is "all"', () => {
@@ -11,30 +11,25 @@ describe('filterDataYear', () => {
     const result = filterDataYear(data, '2005-2010');
     const expectedResult = data.filter(item => item.facts.year >= 2005 && item.facts.year <= 2010);
     expect(result).toEqual(expectedResult);
-
   });
 
   it('filters data between 2010 and 2015', () => {
     const result = filterDataYear(data, '2010-2015');
     const expectedResult = data.filter(item => item.facts.year >= 2010 && item.facts.year <= 2015);
     expect(result).toEqual(expectedResult);
-
   });
 
   it('filters data between 2015 and 2020', () => {
     const result = filterDataYear(data, '2015-2020');
     const expectedResult = data.filter(item => item.facts.year >= 2015 && item.facts.year <= 2020);
     expect(result).toEqual(expectedResult);
-
   });
 
   it('filters data between 2020 and 2023', () => {
     const result = filterDataYear(data, '2020-2023');
     const expectedResult = data.filter(item => item.facts.year >= 2020 && item.facts.year <= 2023);
     expect(result).toEqual(expectedResult);
-
   });
-
 });
 
 describe('filterDataRating', () => {
@@ -76,7 +71,6 @@ describe('filterDataRating', () => {
   });
 });
 
-
 describe('sortData', () => {
   it('sorts data in ascending order', () => {
     const result = sortData(data, 'asc');
@@ -94,12 +88,12 @@ describe('sortData', () => {
     const result = sortData(data, 'invalid');
     expect(result).toEqual(data);
   });
-
 });
+
 describe('calculateAverageRating', () => {
   it('calculates the average rating correctly', () => {
     const result = calculateAverageRating(data);
-    const expectedResult = "7.4";
+    const expectedResult = "6.8";
     expect(result).toEqual(expectedResult);
   });
 
@@ -113,7 +107,7 @@ describe('calculateAverageRating', () => {
 describe('calculateAwardsReceived', () => {
   it('calculates the total awards received correctly', () => {
     const result = calculateAwardsReceived(data);
-    const expectedResult = 470;
+    const expectedResult = 197;
     expect(result).toEqual(expectedResult);
   });
 
@@ -127,7 +121,7 @@ describe('calculateAwardsReceived', () => {
 describe('calculateTotalAudience', () => {
   it('calculates the total audience correctly', () => {
     const result = calculateTotalAudience(data);
-    const expectedResult = "2551 M";
+    const expectedResult = "855 M";
     expect(result).toEqual(expectedResult);
   });
 

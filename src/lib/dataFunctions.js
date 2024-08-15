@@ -19,6 +19,7 @@ export function filterDataYear(data, filterValue) {
 }
 
 
+
 export function filterDataRating(data, filterValue) {
   if (filterValue === 'all') return data;
 
@@ -65,7 +66,6 @@ export function calculateAwardsReceived(data) {
 
 export function calculateTotalAudience(data) {
   const totalAudience = data.reduce((accumulator, movie) => {
-    console.log(`Accumulator: ${accumulator}, Movie Audience: ${movie.extraInfo.audience}`);
     return accumulator + movie.extraInfo.audience;
   }, 0);
 
@@ -74,5 +74,10 @@ export function calculateTotalAudience(data) {
 
 export function searchMovies(data, query) {
   return data.filter(movie => movie.name.toLowerCase().includes(query));
+}
+
+export function getMovieById(data, movieId) {
+  return data.find(movie => movie.id === movieId);
+
 }
 

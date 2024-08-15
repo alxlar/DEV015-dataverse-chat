@@ -1,3 +1,6 @@
+import { navigateTo } from '../routes.js';
+
+
 export const renderItems = (data) => {
   // Creación elemento <ul> utilizando createElement
   const ulElement = document.createElement('ul');
@@ -28,11 +31,21 @@ export const renderItems = (data) => {
         <dt>Rating:</dt><dd itemprop="rating"><img class="rating-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png" alt="IMDb Logo" />  ${item.facts.rating}</dd>
         <div class="button-group">
           <button class="viewmore-button">View more</button>
-          <button class="chat-button">Chat</button>
+         <button class="chat-button">
+          <img src="assets/chat-icon.png" alt="Chat Icon" class="chat-icon"> Chat
+        </button>
+
         </div>
       </section>
       </dl>
     `;
+
+    // Agrega el evento click al botón "View more"
+    const viewMoreButton = liElement.querySelector('.viewmore-button');
+    viewMoreButton.addEventListener('click', () => {
+      const movieId = item.id; // Asegúrate de que el objeto `item` tenga un campo `slug`
+      navigateTo("/about", { id: movieId });
+    });
 
     // Agregar cada <li> al <ul> utilizando appendChild
     ulElement.appendChild(liElement);
