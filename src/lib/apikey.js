@@ -1,7 +1,7 @@
 export const getApiKey = () => {
-  return localStorage.getItem("APIKEY");
+  return localStorage.getItem("marvelApiKey");
 };
 
 export const setApiKey = (key) => {
-  localStorage.setItem("APIKEY", key);
+  localStorage.setItem("marvelApiKey", key);
 };

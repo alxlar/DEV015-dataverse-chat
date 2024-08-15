@@ -5,8 +5,8 @@ import { getMovieById } from "../lib/dataFunctions.js"
 
 export default function About() {
   const rootElement = document.createElement("div");
-  let movieId = getQueryParam("id")
-  let movie = getMovieById(data, movieId)
+  const movieId = getQueryParam("id")
+  const movie = getMovieById(data, movieId)
   rootElement.innerHTML = detailsComponent(movie);
 
   const trailerPlay = rootElement.querySelector('.trailer-play');
@@ -16,13 +16,13 @@ export default function About() {
   });
 
   // background image
-  let backgroundImageUrl = movie.front
+  const backgroundImageUrl = movie.front
   const backgrounHeader = rootElement.querySelector('.header-details');
   // Verifica si el elemento existe
-if (backgrounHeader) {
-  // Agrega la imagen de fondo utilizando la URL dinámica
-  backgrounHeader.style.backgroundImage = `linear-gradient(to bottom,rgba(5, 7, 12, 0.8), rgba(5, 7, 12, 0.4)),url(${backgroundImageUrl})`;
-}
+  if (backgrounHeader) {
+    // Agrega la imagen de fondo utilizando la URL dinámica
+    backgrounHeader.style.backgroundImage = `linear-gradient(to bottom,rgba(5, 7, 12, 0.8), rgba(5, 7, 12, 0.4)),url(${backgroundImageUrl})`;
+  }
 
   function showTrailerModal(trailerUrl) {
     const modal = document.createElement('div');
