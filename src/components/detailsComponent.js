@@ -6,17 +6,15 @@ export const detailsComponent = (item) => {
       <div class="logo">
         <img src="assets/marvel_logo.png" alt="Marvel Logo">
       </div>
-      <div class="search-bar">
-        <img src="assets/search_icon.png" alt="Search Icon" class="search-icon">
-        <input type="text" placeholder="Find your favorite movie">
-      </div>
       <div class="api-key-button">
         <button>API Key</button>
       </div>
     </section>
     </header>
     <div class="details-container">
-      <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>
+    <div class="movie-image-box">
+     <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>
+    </div>
       <div class="details">
         <ul>
           <li class="year">${item.facts.year}</li>
@@ -30,9 +28,13 @@ export const detailsComponent = (item) => {
         </ul>
       </div>
       <div class="buttons-and-actors">
-        <button>Chat individual</button>
-        <button class="trailer-play" data-trailer="${item.facts.trailer}
+      <div class="buttons-top">
+        <button class="chat-button">
+            <img src="assets/chat-icon.png" alt="Chat Icon" class="chat-icon"> Chat
+          </button>
+          <button class="trailer-play" data-trailer="${item.facts.trailer}
         ">Watch trailer</button>
+      </div>  
         ${generateCharactersSection(item.characters)}
       </div>
     </div>
@@ -44,7 +46,7 @@ export const detailsComponent = (item) => {
     for (let i = 0; i < characters.length; i++) {
       charactersHTML += `
             <div class="character">
-              <img src="${characters[i].imageUrl}" alt="${characters[i].actor}">
+               <img src="${characters[i].imageUrl}" alt="${characters[i].actor}" class="character-image"/>
               <div class="character-info">
                 <p class="actor-name">${characters[i].actor}</p>
                 <p class="character-name">${characters[i].name}</p>
