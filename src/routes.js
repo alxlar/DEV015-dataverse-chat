@@ -13,9 +13,8 @@ const renderView = (pathname, props = {}) => {
   ROOT.innerHTML = "";
 
   const view = ROUTES[pathname] || ROUTES["/error"];
-
-  const viewElement = view(props);
-
+  
+  const viewElement = view(props)
   ROOT.appendChild(viewElement);
 };
 
@@ -39,6 +38,7 @@ export const navigateTo = (pathname, props = {}) => {
   window.history.pushState({}, "", fullPath);
 
   renderView(pathname, props);
+
 };
 
 export const onURLChange = (location) => {

@@ -35,6 +35,7 @@ export default function Home() {
   // Botones
   const buttonClear = rootElement.querySelector("#button-clear");
   const searchInput = rootElement.querySelector(".search-bar input");
+  const buttonChat = rootElement.querySelector(".chat-button");
 
   // Filter
   filterYear.addEventListener('change', applyFilters);

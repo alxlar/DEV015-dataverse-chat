@@ -3,12 +3,14 @@ import Home  from './views/Home.js';
 import Details  from './views/Details.js';
 import ApikeyView from './views/ApikeyView.js'
 import Error from "./views/Error.js";
+import Chat from "./views/Chat.js"
 
 const routes = {
   '/': Home,
   '/about': Details,
   '/api-key': ApikeyView,
-  '/error': Error
+  '/error': Error,
+  '/chat': Chat,
 };
 
 // Assign the routes
