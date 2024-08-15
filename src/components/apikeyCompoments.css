@@ -20,8 +20,7 @@
   text-align: center;
   max-width: 400px;
   width: 80%;
-
-
+}
 
 .logo img {
   max-width: 150px;
@@ -54,6 +53,7 @@
   margin-bottom: 20px;
 }
 
+
 #buttonClearApi {
  color: white;
  font-size: 16px;
@@ -63,7 +63,7 @@
 
 #buttonSafeApikey {
   background-color: #FFD43B;
-  color: white;
+  color: rgb(4, 4, 4);
   width: 40%;
   padding: 10px;
   font-size: 16px;
@@ -75,5 +75,13 @@
 }
 
 #buttonSafeApikey:hover {
-  background-color: #7d7979;
+  background-color: #37d13a;
 }
+
+#return-home {
+  color: rgb(40, 111, 233);
+  font-size: 16px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
