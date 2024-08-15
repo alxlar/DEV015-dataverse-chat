@@ -43,11 +43,18 @@ export const renderItems = (data) => {
     // Agrega el evento click al botón "View more"
     const viewMoreButton = liElement.querySelector('.viewmore-button');
     viewMoreButton.addEventListener('click', () => {
-      const movieId = item.id; // Asegúrate de que el objeto `item` tenga un campo `slug`
+      const movieId = item.id; 
       navigateTo("/about", { id: movieId });
     });
 
-    // Agregar cada <li> al <ul> utilizando appendChild
+    const chatButton = liElement.querySelector('.chat-button');
+    chatButton.addEventListener('click', () => {
+      const movieId = item.id; 
+      navigateTo("/chat", { id: movieId });
+      
+    });
+
+   
     ulElement.appendChild(liElement);
   });
 

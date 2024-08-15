@@ -1,5 +1,5 @@
-export const chatComponents = () => {
-    const chatComponents = `
+export const chatComponents = (item) => {
+  const chatComponents = `
     <header class="header-details">
         <section class="menu">
             <div class="logo">
@@ -35,7 +35,7 @@ export const chatComponents = () => {
                             <p>Hi there</p>
                         </li>  
                         <li class="chat-outgoing">                
-                            <p>loerm ipsum</p>
+                            <p>lorem ipsum</p>
                         </li>
                     </ul> 
                 </div>
@@ -50,5 +50,5 @@ export const chatComponents = () => {
     </main> 
     `;
     
-    return chatComponents;
+  return chatComponents;
 }
