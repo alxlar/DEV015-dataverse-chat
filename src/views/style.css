@@ -1,6 +1,7 @@
 @import "../components/detailsComponets.css";
 @import "../components/apikeyCompoments.css";
 @import "../components/chatComponents.css";
+@import "../components/groupChatComponents.css";
 body {
   font-family: "DM Sans", sans-serif;
   margin: 0px;
@@ -46,6 +47,8 @@ header {
   font-size: 14px;
   border: 2px solid transparent;
   outline: none;
+  width: 170px;
+
 }
 
 .search-bar img {

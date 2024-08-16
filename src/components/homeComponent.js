@@ -78,6 +78,7 @@ export const homeComponent = () => {
     </div>
   </section>
 </main>
+<button class="group-chat-button">Chat Grupal </button>
 
 <section id="home"></section>
   `;

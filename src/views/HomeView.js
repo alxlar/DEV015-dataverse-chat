@@ -35,7 +35,8 @@ export default function Home() {
   // Botones
   const buttonClear = rootElement.querySelector("#button-clear");
   const searchInput = rootElement.querySelector(".search-bar input");
-  const buttonChat = rootElement.querySelector(".chat-button");
+  const groupChat = rootElement.querySelector(".group-chat-button");
+
 
   // Filter
   filterYear.addEventListener('change', applyFilters);
@@ -45,15 +46,18 @@ export default function Home() {
   buttonClear.addEventListener('click', clearFilters);
   sort.value = 'asc';
 
+  groupChat.addEventListener('click', () => {
+    navigateTo("/chat-group");
+  });
+
   const apiKeyButton = rootElement.querySelector('.api-key-button');
   apiKeyButton.addEventListener('click', () => {
     navigateTo("/api-key");
   });
 
-
   searchInput.addEventListener('input', () => {
     const query = searchInput.value.toLowerCase();
-    const filteredData = searchMovies(data, query); // Asumiendo que searchMovies toma data y query como argumentos
+    const filteredData = searchMovies(data, query);
     cardsElement.innerHTML = '';
     const ulElement = renderItems(filteredData);
     cardsElement.appendChild(ulElement);
@@ -144,6 +148,7 @@ export default function Home() {
       filterMenu.classList.toggle('show');
     });
   }
+
 
   showMenu();
   initStatistics();
