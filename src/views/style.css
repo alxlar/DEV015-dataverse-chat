@@ -1,5 +1,6 @@
 @import "../components/detailsComponets.css";
 @import "../components/apikeyCompoments.css";
+@import "../components/chatComponents.css";
 body {
   font-family: "DM Sans", sans-serif;
   margin: 0px;
