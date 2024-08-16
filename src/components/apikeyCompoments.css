@@ -75,7 +75,7 @@
 }
 
 #buttonSafeApikey:hover {
-  background-color: #37d13a;
+  background-color: #FFC107;
 }
 
 #return-home {
@@ -84,4 +84,3 @@
   text-decoration: underline;
   cursor: pointer;
 }
-
