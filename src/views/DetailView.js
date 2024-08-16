@@ -1,4 +1,5 @@
 
+import { navigateTo } from '../routes.js';
 import data from "../data/dataset.js";
 import { detailsComponent } from "../components/detailsComponent.js";
 import { getMovieById } from "../lib/dataFunctions.js"
@@ -46,6 +47,16 @@ export default function About() {
       }
     });
   }
+
+  const apiKeyButton = rootElement.querySelector('.api-key-button');
+  apiKeyButton.addEventListener('click', () => {
+    navigateTo("/api-key");
+  });
+
+  const chatButton = rootElement.querySelector('.chat-button');
+  chatButton.addEventListener('click', () => {
+    navigateTo("/chat", { id: movieId });
+  });
 
 
   // Función para obtener el parámetro de la URL
