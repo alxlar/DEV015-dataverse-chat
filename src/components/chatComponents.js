@@ -23,32 +23,32 @@ export const chatComponents = (item) => {
                     </div>
                     <div>
                         <ul>
-                            <li class="name">${item.name}</li>    
-                            <li class="status">Active Now</li>  
+                            <li class="name">${item.name}</li>
+                            <li class="status">Active Now</li>
                         </ul>
-                    </div>  
+                    </div>
                 </div>
                 <div class="chat-interaction-box">
                     <ul class="chat-interaction">
                         <li class="chat-incoming">
-                            <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>              
+                            <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>
                             <p>Hi there</p>
-                        </li>  
-                        <li class="chat-outgoing">                
+                        </li>
+                        <li class="chat-outgoing">
                             <p>lorem ipsum</p>
                         </li>
-                    </ul> 
+                    </ul>
                 </div>
                 <div class="chat-input">
                 <textarea placeholder="Enter a message..."></textarea>
-                 <button type="submit">
+                 <button type="submit" id="send-message">
                     <img src="../assets/send.png" alt="send">
                 </button>
                 </div>
             </div>
-        </div> 
-    </main> 
+        </div>
+    </main>
     `;
-    
+
   return chatComponents;
 }
