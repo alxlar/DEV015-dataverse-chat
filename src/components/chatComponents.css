@@ -16,7 +16,7 @@
 
 .chat-header {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   padding: 10px;
   align-items: center;
   height: 10%;
@@ -69,7 +69,6 @@
   margin: 0;
 }
 
-/* Chat Interaction Styles */
 .chat-interaction-box {
   padding: 10px;
   flex-grow: 1;
@@ -107,7 +106,6 @@
   margin: 0;
 }
 
-/* Chat Input Styles */
 .chat-input {
   display: flex;
   flex-direction: row;
@@ -131,7 +129,6 @@
 }
 
 .chat-input button {
-    border: none;
-    background: transparent;
-  }
-  
+  border: none;
+  background: transparent;
+}
