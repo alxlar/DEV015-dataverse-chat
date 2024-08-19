@@ -1,5 +1,4 @@
 import { navigateTo } from '../routes.js';
-import { communicateWithOpenAI } from '../lib/openAIApi.js';
 import data from "../data/dataset.js";
 import { chatComponents } from "../components/chatComponents.js";
 import { getMovieById } from "../lib/dataFunctions.js"
@@ -9,30 +8,6 @@ export default function ChatView() {
   const movieId = getQueryParam("id");
   const movie = getMovieById(data, movieId);
   rootElement.innerHTML = chatComponents(movie);
-
-
-  let sendMessage = rootElement.querySelector("#send-message")
-
-  if (sendMessage) {
-      sendMessage.addEventListener('click', () => {
-          testOpenAI();
-      });
-  }
-
-  const testOpenAI = async () => {
-    const messages = [
-        { role: 'user', content: 'Tell me about Iron Man.' },
-    ];
-
-    try {
-        const response = await communicateWithOpenAI(messages);
-        console.log(response);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-};
-
-
 
   // Función para obtener el parámetro de la URL
   function getQueryParam(name) {

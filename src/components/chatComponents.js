@@ -1,6 +1,6 @@
 export const chatComponents = (item) => {
   const chatComponents = `
-    <header class="header-chat">
+    <header class="header-details">
         <section class="menu">
             <div class="logo">
                 <img src="assets/marvel_logo.png" alt="Marvel Logo">
@@ -10,10 +10,10 @@ export const chatComponents = (item) => {
             </div>
         </section>
     </header>
-    <main class="chat-container-box">
+    <main class="chat-container">
         <div class="chat-container">
             <div class="image-chat">
-                <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>
+                <img class="img-movie">  
             </div>
             <div class="chat-box">
                 <div class="chat-header">
@@ -23,32 +23,32 @@ export const chatComponents = (item) => {
                     </div>
                     <div>
                         <ul>
-                            <li class="name">${item.name}</li>
-                            <li class="status">Active Now</li>
+                            <li class="name">${item.name}</li>    
+                            <li class="status">Active Now</li>  
                         </ul>
-                    </div>
+                    </div>  
                 </div>
-                <div class="chat-interaction-box">
+                <div class="chat-container">
                     <ul class="chat-interaction">
                         <li class="chat-incoming">
-                            <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>
+                            <img class="img-movie">                
                             <p>Hi there</p>
-                        </li>
-                        <li class="chat-outgoing">
+                        </li>  
+                        <li class="chat-outgoing">                
                             <p>lorem ipsum</p>
                         </li>
-                    </ul>
+                    </ul> 
                 </div>
                 <div class="chat-input">
                 <textarea placeholder="Enter a message..."></textarea>
-                 <button type="submit" id="send-message">
+                 <button type="submit">
                     <img src="../assets/send.png" alt="send">
                 </button>
                 </div>
             </div>
-        </div>
-    </main>
+        </div> 
+    </main> 
     `;
-
+    
   return chatComponents;
 }
