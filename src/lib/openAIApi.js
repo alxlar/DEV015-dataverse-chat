@@ -1,6 +1,35 @@
+import { getApiKey } from './apiKey.js';
 
-import { getApiKey } from './apikey.js';
+export const communicateWithOpenAI = async (messages) => {
+  const APIKEY = getApiKey();
 
-export const communicateWithOpenAI = (messages) => {
-   //Aquí es donde debes implementar la petición con fetch o axios
+  if (!APIKEY) {
+    throw new Error('API Key is missing or invalid');
+  }
+
+  try {
+    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${APIKEY}`,
+      },
+      body: JSON.stringify({
+        model: 'gpt-4-0613',
+        messages: messages,
+      }),
+    });
+
+    if (!response.ok) {
+      const errorDetails = await response.json();
+      throw new Error(`Error: ${response.status}, Details: ${errorDetails.error.message}`);
+    }
+
+    const data = await response.json();
+    return data.choices[0].message.content;
+
+  } catch (error) {
+    console.error('Error comunicándose con OpenAI:', error);
+    throw error;
+  }
 };

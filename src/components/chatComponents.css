@@ -13,7 +13,9 @@
   height: 500px;
   margin-right: 20px;
 }
-
+.chat-container-box{
+  background-color:
+}
 .chat-header {
   display: flex;
   flex-direction: row;
@@ -142,8 +144,8 @@
 
 @media (max-width: 768px) {
   .chat-box {
-    width: 100%;
-    height: 96vh;
+    width: 50vh;
+    height: 100vh;
   }
 
   .image-chat img.movie-image {
