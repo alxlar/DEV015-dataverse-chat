@@ -1,5 +1,4 @@
 import { navigateTo } from '../routes.js';
-import { communicateWithOpenAI } from '../lib/openAIApi.js';
 import data from "../data/dataset.js";
 import { chatComponents } from "../components/chatComponents.js";
 import { getMovieById } from "../lib/dataFunctions.js"
