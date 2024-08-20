@@ -1,29 +1,35 @@
 import { getApiKey } from './apiKey.js';
 
 export const communicateWithOpenAI = async (messages) => {
-    const APIKEY = getApiKey();
+  const APIKEY = getApiKey();
 
-    try {
-        const response = await fetch('https://api.openai.com/v1/chat/completions', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'Authorization': `Bearer ${APIKEY}`,
-            },
-            body: JSON.stringify({
-                model: 'gpt-4',
-                messages: messages,
-            }),
-        });
+  if (!APIKEY) {
+    throw new Error('API Key is missing or invalid');
+  }
 
-        if (!response.ok) {
-            throw new Error(`Error: ${response.status}`);
-        }
+  try {
+    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${APIKEY}`,
+      },
+      body: JSON.stringify({
+        model: 'gpt-4-0613',
+        messages: messages,
+      }),
+    });
 
-        const data = await response.json();
-        return data.choices[0].message.content;
-    } catch (error) {
-        console.error('Error comunicándose con OpenAI:', error);
-        throw error;
+    if (!response.ok) {
+      const errorDetails = await response.json();
+      throw new Error(`Error: ${response.status}, Details: ${errorDetails.error.message}`);
     }
+
+    const data = await response.json();
+    return data.choices[0].message.content;
+
+  } catch (error) {
+    console.error('Error comunicándose con OpenAI:', error);
+    throw error;
+  }
 };
