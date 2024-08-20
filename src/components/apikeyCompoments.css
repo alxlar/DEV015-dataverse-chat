@@ -84,3 +84,18 @@
   text-decoration: underline;
   cursor: pointer;
 }
+@media (max-width: 768px) {
+  .tittle-apiKey {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  #return-home {
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+    padding-left: 100px;
+  }
+}

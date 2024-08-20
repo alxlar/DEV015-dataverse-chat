@@ -101,7 +101,7 @@ p {
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: leftn;
+  justify-content: left;
   gap: 30px;
 }
 .stat-item {
@@ -164,7 +164,7 @@ footer {
   font-size: 18px;
   font-weight: bold;
   padding-bottom: 2%;
-color: #262B2F;
+  color: #262B2F;
 }
 
 .movie-image {
@@ -208,22 +208,22 @@ dd {
 [itemprop="shortDescription"] {
   font-size: 14px;
   color: #BCBCBC;
-  }
+}
 
 [itemprop="director"] {
-    font-size: 14px;
-    color: #BCBCBC;
-   }
+  font-size: 14px;
+  color: #BCBCBC;
+}
 
 [itemprop="duration"] {
-    font-size: 14px;
-    color: #BCBCBC;
-    }
+  font-size: 14px;
+  color: #BCBCBC;
+}
 
 [itemprop="rating"] {
-      font-size: 14px;
-      color: #BCBCBC;
-      }
+  font-size: 14px;
+  color: #BCBCBC;
+}
 
 dl {
   display: flex;
@@ -428,22 +428,25 @@ color: white;
   font-size: 13px;
   outline: none;
   color: white;
-    border: none;
-    padding: 5px;
-    margin: 0px;
+  border: none;
+  padding: 5px;
+  margin: 0px;
 }
 
+.button-group{
+  display: flex;
+}
 
 #button-clear {
   background-color: #FFD43B;
   font-family: "DM Sans";
   color: #161A1D;
   padding: 30px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: bold;
-    border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  border: none;
 }
 
 .options {
@@ -487,7 +490,7 @@ color: white;
   align-items: center;
   justify-content: start;
   gap: 0px;
-  margin: 0px 0px 0px 40px;
+  margin: 0px 0px 0px 15px;
 }
 
 .chat-icon {
@@ -631,14 +634,46 @@ color: white;
     font-weight: bold;
     font-family: "DM Sans";
   }
-
+  [itemprop="shortDescription"]{
+    font-size: 12px;
+  }
   .img-menu {
     width: 40px;
     height: auto;
   }
+  [itemprop="director"]{
+    font-size: 12px;
 
+  }
+
+  [itemprop="duration"]{
+    font-size: 12px;
+
+  }
   .f-filter{
     display:block;
   }
 
+  .logo img {
+    display: none;
+  }
+
+  .search-bar input {
+    padding: 10px 90px 10px 15px;
+  }
+
+  .api-key-button button {
+    padding: 5px 20px;
+
+  }
+
+  .viewmore-button {
+    padding: 5px;
+    margin: 0px 0px 0px 8px;
+  }
+
+  .chat-button {
+    padding: 5px;
+    margin: 0px 10px 0px 15px;
+  }
 }

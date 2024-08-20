@@ -21,10 +21,10 @@ export const detailsComponent = (item) => {
           <li class="name">${item.name}</li>
           <li class="rating"><img class="rating-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png" alt="IMDb Logo" />  ${item.facts.rating}</li>
           <li class="description">${item.description}</li>
-          <li class="director">Director  ${item.facts.director}</li>
-          <li class="duration">Duration  ${item.facts.duration}</li>
-          <li class="awards">Awards  ${item.extraInfo.awards}</li>
-          <li class="audience">Audience  ${item.extraInfo.audience}</li>
+          <li class="director">Director:  ${item.facts.director}</li>
+          <li class="duration">Duration:  ${item.facts.duration}</li>
+          <li class="awards">Awards:  ${item.extraInfo.awards}</li>
+          <li class="audience">Audience:  ${item.extraInfo.audience}</li>
         </ul>
       </div>
       <div class="buttons-and-actors">
@@ -34,7 +34,7 @@ export const detailsComponent = (item) => {
           </button>
           <button class="trailer-play" data-trailer="${item.facts.trailer}
         ">Watch trailer</button>
-      </div>  
+      </div>
         ${generateCharactersSection(item.characters)}
       </div>
     </div>
@@ -45,13 +45,13 @@ export const detailsComponent = (item) => {
 
     for (let i = 0; i < characters.length; i++) {
       charactersHTML += `
-            <div class="character">
-               <img src="${characters[i].imageUrl}" alt="${characters[i].actor}" class="character-image"/>
-              <div class="character-info">
-                <p class="actor-name">${characters[i].actor}</p>
-                <p class="character-name">${characters[i].name}</p>
-              </div>
-            </div>`;
+      <div class="character">
+        <img src="${characters[i].imageUrl}" alt="${characters[i].actor}" class="character-image"/>
+        <div class="character-info">
+            <p class="actor-name">${characters[i].actor}</p>
+            <p class="character-name">${characters[i].name}</p>
+        </div>
+      </div>`;
     }
 
     charactersHTML += `</section>`;

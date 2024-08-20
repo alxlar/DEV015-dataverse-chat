@@ -14,9 +14,9 @@ export default function ChatView() {
   let sendMessage = rootElement.querySelector("#send-message")
 
   if (sendMessage) {
-    sendMessage.addEventListener('click', () => {
+      sendMessage.addEventListener('click', () => {
           testOpenAI();
-    });
+      });
   }
 
   const testOpenAI = async () => {
@@ -31,8 +31,6 @@ export default function ChatView() {
         console.error('Error:', error);
     }
 };
-
-
 
   // Función para obtener el parámetro de la URL
   function getQueryParam(name) {
