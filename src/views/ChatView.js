@@ -32,8 +32,6 @@ export default function ChatView() {
     }
 };
 
-
-
   // Función para obtener el parámetro de la URL
   function getQueryParam(name) {
     const urlParams = new URLSearchParams(window.location.search);
