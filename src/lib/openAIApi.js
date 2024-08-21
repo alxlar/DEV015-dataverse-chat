@@ -33,5 +33,3 @@ export const communicateWithOpenAI = async (messages) => {
     throw error;
   }
 };
-
-

@@ -140,6 +140,7 @@
 .chat-input button {
   border: none;
   background: transparent;
+
 }
 
 @media (max-width: 768px) {
@@ -162,3 +163,4 @@
     padding: 0px;
   }
 }
+
