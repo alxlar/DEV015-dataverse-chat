@@ -28,15 +28,9 @@ export const chatComponents = (item) => {
                         </ul>
                     </div>
                 </div>
+
                 <div class="chat-interaction-box">
                     <ul class="chat-interaction">
-                        <li class="chat-incoming">
-                            <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>
-                            <p>Hi there</p>
-                        </li>
-                        <li class="chat-outgoing">
-                            <p>lorem ipsum</p>
-                        </li>
                     </ul>
                 </div>
                 <div class="chat-input">

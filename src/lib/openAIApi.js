@@ -15,7 +15,7 @@ export const communicateWithOpenAI = async (messages) => {
         'Authorization': `Bearer ${APIKEY}`,
       },
       body: JSON.stringify({
-        model: 'gpt-4-0613',
+        model: 'gpt-4',
         messages: messages,
       }),
     });

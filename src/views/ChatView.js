@@ -2,7 +2,7 @@ import { navigateTo } from '../routes.js';
 import { communicateWithOpenAI } from '../lib/openAIApi.js';
 import data from "../data/dataset.js";
 import { chatComponents } from "../components/chatComponents.js";
-import { getMovieById } from "../lib/dataFunctions.js"
+import { getMovieById } from "../lib/dataFunctions.js";
 
 export default function ChatView() {
   const rootElement = document.createElement("div");
@@ -10,27 +10,51 @@ export default function ChatView() {
   const movie = getMovieById(data, movieId);
   rootElement.innerHTML = chatComponents(movie);
 
+  const sendMessageButton = rootElement.querySelector("#send-message");
+  const messageInput = rootElement.querySelector("textarea");
+  const chatInteractionBox = rootElement.querySelector(".chat-interaction");
 
-  let sendMessage = rootElement.querySelector("#send-message")
+  if (sendMessageButton && messageInput) {
+    sendMessageButton.addEventListener('click', async () => {
+      const userMessage = messageInput.value.trim();
+      if (userMessage) {
+        // Mostrar mensaje del usuario en el chat
+        addMessageToChat(userMessage, 'outgoing');
 
-  if (sendMessage) {
-      sendMessage.addEventListener('click', () => {
-          testOpenAI();
-      });
+        // Limpiar el campo de entrada
+        messageInput.value = '';
+
+        try {
+            const messages = [
+              {
+                role: 'system',
+                content: `You are a character or narrator from the movie "${movie.name}". Here is some information: ${movie.description}. Please respond as if you are part of this movie, and keep your responses brief, no more than 50 words.`,
+              },
+              {
+                role: 'user',
+                content: userMessage,
+              },
+            ];
+
+            const aiResponse = await communicateWithOpenAI(messages);
+            addMessageToChat(aiResponse, 'incoming');
+          } catch (error) {
+          console.error('Error al enviar mensaje a OpenAI:', error);
+          addMessageToChat('Error al comunicarse con la IA.', 'incoming');
+        }
+      }
+    });
   }
 
-  const testOpenAI = async () => {
-    const messages = [
-        { role: 'user', content: 'Tell me about Iron Man.' },
-    ];
+  function addMessageToChat(message, type) {
+    const li = document.createElement('li');
+    li.classList.add(`chat-${type}`);
+    li.innerHTML = `<p>${message}</p>`;
+    chatInteractionBox.appendChild(li);
 
-    try {
-        const response = await communicateWithOpenAI(messages);
-        console.log(response);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-};
+    // Desplazar la vista hacia el último mensaje
+    chatInteractionBox.scrollTop = chatInteractionBox.scrollHeight;
+  }
 
   // Función para obtener el parámetro de la URL
   function getQueryParam(name) {
@@ -38,12 +62,11 @@ export default function ChatView() {
     return urlParams.get(name);
   }
 
-  // ir a generar apikey
+  // Navegar a la página para ingresar la API key
   const apiKeyButton = rootElement.querySelector('.api-key-button');
   apiKeyButton.addEventListener('click', () => {
     navigateTo("/api-key");
   });
-
 
   return rootElement;
 }
