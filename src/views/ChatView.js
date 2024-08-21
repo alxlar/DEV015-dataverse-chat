@@ -45,7 +45,50 @@ export default function ChatView() {
       }
     });
   }
-
+  if (sendMessageButton && messageInput) {
+    sendMessageButton.addEventListener('click', async () => {
+      await handleSendMessage();
+    });
+  
+    // Detectar la tecla Enter en el textarea
+    messageInput.addEventListener('keydown', async (event) => {
+      if (event.key === 'Enter' && !event.shiftKey) {  // Enter sin Shift
+        event.preventDefault(); // Evitar el salto de línea
+        await handleSendMessage();
+      }
+    });
+  }
+  
+  async function handleSendMessage() {
+    const userMessage = messageInput.value.trim();
+    if (userMessage) {
+      // Mostrar mensaje del usuario en el chat
+      addMessageToChat(userMessage, 'outgoing');
+  
+      // Limpiar el campo de entrada
+      messageInput.value = '';
+  
+      try {
+        const messages = [
+          {
+            role: 'system',
+            content: `You are a character or narrator from the movie "${movie.name}". Here is some information: ${movie.description}. Please respond as if you are part of this movie, and keep your responses brief, no more than 50 words.`,
+          },
+          {
+            role: 'user',
+            content: userMessage,
+          },
+        ];
+  
+        const aiResponse = await communicateWithOpenAI(messages);
+        addMessageToChat(aiResponse, 'incoming');
+      } catch (error) {
+        console.error('Error al enviar mensaje a OpenAI:', error);
+        addMessageToChat('Error al comunicarse con la IA.', 'incoming');
+      }
+    }
+  }
+  
   function addMessageToChat(message, type) {
     const li = document.createElement('li');
     li.classList.add(`chat-${type}`);

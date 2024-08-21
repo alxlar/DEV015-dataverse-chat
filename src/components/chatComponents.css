@@ -13,9 +13,7 @@
   height: 500px;
   margin-right: 20px;
 }
-.chat-container-box{
-  background-color:
-}
+
 .chat-header {
   display: flex;
   flex-direction: row;
@@ -78,9 +76,11 @@
 }
 
 .chat-interaction-box {
+  height: 400px; /* Ajusta según el diseño */
+  overflow-y: auto;
   padding: 10px;
-  flex-grow: 1;
 }
+
 
 .chat-interaction .chat-incoming,
 .chat-interaction .chat-outgoing {
@@ -104,6 +104,7 @@
     font-size: 15px;
     border-radius: 10px;
     margin: 0;
+    height: fit-content;
 }
 .chat-interaction .chat-outgoing p {
   background-color: white;
@@ -112,6 +113,7 @@
   padding: 10px;
   border-radius: 10px;
   margin: 0;
+  height: fit-content;
 }
 
 .chat-input {
