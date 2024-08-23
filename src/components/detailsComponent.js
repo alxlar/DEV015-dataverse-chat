@@ -16,7 +16,7 @@ export const detailsComponent = (item) => {
      <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>
     </div>
       <div class="details">
-        <ul>
+        <ul class="details-box">
           <li class="year">${item.facts.year}</li>
           <li class="name">${item.name}</li>
           <li class="rating"><img class="rating-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png" alt="IMDb Logo" />  ${item.facts.rating}</li>

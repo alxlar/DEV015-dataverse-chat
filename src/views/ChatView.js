@@ -43,12 +43,6 @@ export default function ChatView() {
         }
       }
     });
-  }
-
-  if (sendMessageButton && messageInput) {
-    sendMessageButton.addEventListener('click', async () => {
-      await handleSendMessage();
-    });
 
     // Detectar la tecla Enter en el textarea
     messageInput.addEventListener('keydown', async (event) => {
@@ -91,12 +85,23 @@ export default function ChatView() {
   function addMessageToChat(message, type) {
     const li = document.createElement('li');
     li.classList.add(`chat-${type}`);
-    li.innerHTML = `<p>${message}</p>`;
+    
+    // Añadir imagen solo para mensajes entrantes
+    if (type === 'incoming') {
+      li.innerHTML = `
+        <img src="${movie.imageUrl}" alt="${movie.imageDescription}" class="img-chat2"/>
+        <p>${message}</p>`;
+    } else {
+      li.innerHTML = `
+        <p>${message}</p>`;
+    }
+  
     chatInteractionBox.appendChild(li);
-
+  
     // Desplazar la vista hacia el último mensaje
     chatInteractionBox.scrollTop = chatInteractionBox.scrollHeight;
   }
+  
 
   // Función para obtener el parámetro de la URL
   function getQueryParam(name) {

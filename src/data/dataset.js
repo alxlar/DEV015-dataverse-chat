@@ -41,7 +41,7 @@ export default [
     "shortDescription": "Bruce Banner seeks a cure for his Hulk condition.",
     "description": "Follows scientist Bruce Banner, who, after a lab accident, transforms into a giant green monster whenever he experiences intense anger. On the run from the military, which seeks to weaponize his condition, Banner searches for a cure while evading capture. His quest leads him to face off against the ruthless General Thunderbolt Ross and his own inner demons. As Banner struggles to control his transformations, he must also confront a new threat in the form of the equally powerful Abomination, leading to a climactic battle that will test the limits of his strength and resolve.",
     "imageUrl": "https://i.pinimg.com/564x/5d/fd/be/5dfdbe1af9898cbe687650070b0da328.jpg",
-    "front": "https://cdn.vox-cdn.com/thumbor/Qe_aP_9vsnRIfNp7JEQBLTeD1lI=/0x0:1920x816/1920x0/filters:focal(0x0:1920x816):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10716885/incredible_hulk_movie_screencaps.com_11030.jpg",
+    "front": "https://m.media-amazon.com/images/M/MV5BMTQ2ODc0MjI2Nl5BMl5BanBnXkFtZTcwODg3NTAyNw@@._V1_FMjpg_UX2048_.jpg",
     "facts": {
       "year": 2008,
       "rating": "6.7/10",
