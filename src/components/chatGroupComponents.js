@@ -6,20 +6,20 @@ export const chatGroupComponents = (item) => {
       <img src="assets/marvel_logo.png" alt="Marvel Logo">
     </div>
     <div class="api-key-button">
-      <button>API Key</button>
+      <button class= "api-group">API Key</button>
     </div>
   </section>
 </header>
     <main class="chat-container-box">
       <div class="chat-container">
         <div class="image-chat">
-          <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>
+          <img src="${item.imageUrl}" alt="${item.imageDescription}" class="image-group-chat-poster"/>
         </div>
         <div class="chat-box">
-          <div class="chat-header">
+          <div class="chat-group-header">
             <div>
               <ul>
-                <li class="name"> Marvel movies </li>
+                <p class="name-chat-group"> Marvel movies </p>
               </ul>
             </div>
           </div>
@@ -27,7 +27,7 @@ export const chatGroupComponents = (item) => {
 
             <ul class="chat-interaction">
             <li class="chat-incoming">
-            <img src="${item.imageUrl}" alt="${item.imageDescription}" class="movie-image"/>
+            <img src="${item.imageUrl}" alt="${item.imageDescription}" class="image-chat-group-tittle"/>
             <p>Hi there! Ask us some interesting!</p></li>
               <li class="chat-incoming"></li>
               <li class="chat-outgoing"></li>
