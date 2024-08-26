@@ -49,11 +49,14 @@ function addMessageToChat(message, type, movie, chatInteractionBox) {
   } else {
     li.innerHTML = `
       <div class="message-header">
-        <img src="${movie.imageUrl}" alt="${movie.imageDescription}" class="movie-image"/>
-        <span class="name">${movie.name}</span>
+        <img src="${movie.imageUrl}" alt="${movie.imageDescription}" class="image-chatGroup"/>
+
       </div>
+      <div class= "group-message">
+      <span class="name">${movie.name}</span>
       <div class="message-content">
         <p>${message}</p>
+      </div>
       </div>
     `;
   }
