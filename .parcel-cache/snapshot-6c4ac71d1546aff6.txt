@@ -1,5 +1,5 @@
-21461
-68C:\Laboratoria\DEV015-dataverse-chat\src\components\homeComponent.js133686455340390722 0
+21467
+68C:\Laboratoria\DEV015-dataverse-chat\src\components\homeComponent.js133692874441647746 0
 67C:\Laboratoria\DEV015-dataverse-chat\node_modules\lodash\flatMap.js133692854845660702 0
 84C:\Laboratoria\DEV015-dataverse-chat\node_modules\es-abstract\2019\IterableToList.js133692854873462053 0
 97C:\Laboratoria\DEV015-dataverse-chat\node_modules\jest-jasmine2\node_modules\ansi-styles\index.js133692854667913972 0
@@ -41,7 +41,7 @@
 62C:\Laboratoria\DEV015-dataverse-chat\node_modules\import-local133692854700623873 1
 45C:\Laboratoria\DEV015-dataverse-chat\.babelrc133656216789350506 0
 102C:\Laboratoria\DEV015-dataverse-chat\node_modules\eslint\lib\linter\code-path-analysis\fork-context.js133692854809074563 0
-41C:\Laboratoria\DEV015-dataverse-chat\dist133692870397692473 1
+41C:\Laboratoria\DEV015-dataverse-chat\dist133692874439647317 1
 78C:\Laboratoria\DEV015-dataverse-chat\node_modules\has-tostringtag\CHANGELOG.md133692854741821118 0
 76C:\Laboratoria\DEV015-dataverse-chat\node_modules\require-directory\index.js133692854686503835 0
 93C:\Laboratoria\DEV015-dataverse-chat\node_modules\cssstyle\lib\properties\borderRightStyle.js133692854764824477 0
@@ -148,7 +148,7 @@
 60C:\Laboratoria\DEV015-dataverse-chat\node_modules\path-parse133692854684261464 1
 78C:\Laboratoria\DEV015-dataverse-chat\node_modules\eslint-module-utils\visit.js133692854747064076 0
 106C:\Laboratoria\DEV015-dataverse-chat\node_modules\jsdom\lib\jsdom\living\nodes\HTMLDataListElement-impl.js133692854822799288 0
-49C:\Laboratoria\DEV015-dataverse-chat\node_modules133692855503321037 1
+49C:\Laboratoria\DEV015-dataverse-chat\node_modules133692892938294821 1
 72C:\Laboratoria\DEV015-dataverse-chat\node_modules\makeerror\package.json133692854681372877 0
 78C:\Laboratoria\DEV015-dataverse-chat\node_modules\functions-have-names\LICENSE133692854686879697 0
 81C:\Laboratoria\DEV015-dataverse-chat\node_modules\jsdom\lib\jsdom\living\geometry133692854809074563 1
@@ -178,7 +178,7 @@
 92C:\Laboratoria\DEV015-dataverse-chat\node_modules\@jest\reporters\build\SummaryReporter.d.ts133692854772741000 0
 73C:\Laboratoria\DEV015-dataverse-chat\node_modules\undici-types\agent.d.ts133692854678432187 0
 76C:\Laboratoria\DEV015-dataverse-chat\node_modules\@types\stack-utils\LICENSE133692854661166605 0
-54C:\Laboratoria\DEV015-dataverse-chat\package-lock.json133692855513181751 0
+54C:\Laboratoria\DEV015-dataverse-chat\package-lock.json133692892943361526 0
 74C:\Laboratoria\DEV015-dataverse-chat\node_modules\ajv\lib\compile\async.js133692854770637436 0
 78C:\Laboratoria\DEV015-dataverse-chat\node_modules\es-abstract\2024\BinaryOr.js133692854819478782 0
 80C:\Laboratoria\DEV015-dataverse-chat\node_modules\es-abstract\2019\IsCallable.js133692854866786938 0
@@ -188,7 +188,7 @@
 70C:\Laboratoria\DEV015-dataverse-chat\node_modules\universalify\LICENSE133692855493956471 0
 54C:\Laboratoria\DEV015-dataverse-chat\node_modules\pify133692854684271484 1
 80C:\Laboratoria\DEV015-dataverse-chat\node_modules\json-schema-traverse\README.md133692854707138093 0
-67C:\Laboratoria\DEV015-dataverse-chat\node_modules\@msgpackr-extract133692855502946910 1
+67C:\Laboratoria\DEV015-dataverse-chat\node_modules\@msgpackr-extract133692892938314797 1
 60C:\Laboratoria\DEV015-dataverse-chat\node_modules\strip-ansi133692854698726205 1
 80C:\Laboratoria\DEV015-dataverse-chat\node_modules\es-abstract\2015\InLeapYear.js133692854862037510 0
 60C:\Laboratoria\DEV015-dataverse-chat\node_modules\.bin\acorn133692854911363266 0
@@ -621,7 +621,7 @@
 73C:\Laboratoria\DEV015-dataverse-chat\node_modules\@jridgewell\resolve-uri133692854710209542 1
 59C:\Laboratoria\DEV015-dataverse-chat\node_modules\cli-boxes133692854705656031 1
 61C:\Laboratoria\DEV015-dataverse-chat\node_modules\safe-buffer133692854698696176 1
-68C:\Laboratoria\DEV015-dataverse-chat\node_modules\.package-lock.json133692855519233905 0
+68C:\Laboratoria\DEV015-dataverse-chat\node_modules\.package-lock.json133692892948522566 0
 101C:\Laboratoria\DEV015-dataverse-chat\node_modules\jsdom\lib\jsdom\living\generated\HTMLTimeElement.js133692854834691240 0
 61C:\Laboratoria\DEV015-dataverse-chat\node_modules\jest-circus133692854749721824 1
 103C:\Laboratoria\DEV015-dataverse-chat\node_modules\jsdom\lib\jsdom\living\generated\HTMLObjectElement.js133692854830195820 0
@@ -737,7 +737,7 @@
 73C:\Laboratoria\DEV015-dataverse-chat\node_modules\import-fresh\index.d.ts133692854700846875 0
 82C:\Laboratoria\DEV015-dataverse-chat\node_modules\eslint-module-utils\CHANGELOG.md133692854753372759 0
 74C:\Laboratoria\DEV015-dataverse-chat\node_modules\imurmurhash\package.json133692854660850665 0
-55C:\Laboratoria\DEV015-dataverse-chat\node_modules\@lmdb133692855502946910 1
+55C:\Laboratoria\DEV015-dataverse-chat\node_modules\@lmdb133692892938324801 1
 78C:\Laboratoria\DEV015-dataverse-chat\node_modules\typedarray-to-buffer\LICENSE133692854700005691 0
 97C:\Laboratoria\DEV015-dataverse-chat\node_modules\jsdom\lib\jsdom\living\navigator\Plugin-impl.js133692854840733458 0
 59C:\Laboratoria\DEV015-dataverse-chat\node_modules\@mischnic133692854629340966 1
@@ -774,7 +774,7 @@
 130C:\Laboratoria\DEV015-dataverse-chat\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\External.js133692854814575347 0
 78C:\Laboratoria\DEV015-dataverse-chat\node_modules\which-typed-array\index.d.ts133692854738523257 0
 88C:\Laboratoria\DEV015-dataverse-chat\node_modules\@eslint-community\eslint-utils\LICENSE133692854661256234 0
-57C:\Laboratoria\DEV015-dataverse-chat\node_modules\@parcel133692855502936916 1
+57C:\Laboratoria\DEV015-dataverse-chat\node_modules\@parcel133692892938314797 1
 82C:\Laboratoria\DEV015-dataverse-chat\node_modules\es-abstract\2022\YearFromTime.js133692854909234598 0
 80C:\Laboratoria\DEV015-dataverse-chat\node_modules\lodash\_createMathOperation.js133692854821351679 0
 87C:\Laboratoria\DEV015-dataverse-chat\node_modules\parcel\node_modules\commander\LICENSE133692854725707979 0
@@ -812,7 +812,7 @@
 94C:\Laboratoria\DEV015-dataverse-chat\node_modules\es-abstract\2024\TypedArrayCreateSameType.js133692854906033904 0
 137C:\Laboratoria\DEV015-dataverse-chat\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\HTMLSlotElement.js133692854831842131 0
 82C:\Laboratoria\DEV015-dataverse-chat\node_modules\es-abstract\2019\HourFromTime.js133692854859572665 0
-54C:\Laboratoria\DEV015-dataverse-chat\node_modules\@swc133692855502936916 1
+54C:\Laboratoria\DEV015-dataverse-chat\node_modules\@swc133692892938304805 1
 134C:\Laboratoria\DEV015-dataverse-chat\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\helpers\create-element.js133692854788135983 0
 100C:\Laboratoria\DEV015-dataverse-chat\node_modules\jest-snapshot\node_modules\semver\classes\range.js133692854778545832 0
 107C:\Laboratoria\DEV015-dataverse-chat\node_modules\v8-to-istanbul\node_modules\source-map\lib\source-node.js133692854744238033 0
@@ -5019,6 +5019,7 @@
 68C:\Laboratoria\DEV015-dataverse-chat\node_modules\lmdb\src\windows.c133692854806459850 0
 69C:\Laboratoria\DEV015-dataverse-chat\node_modules\term-size\readme.md133692854736545635 0
 78C:\Laboratoria\DEV015-dataverse-chat\node_modules\es-abstract\2018\ToString.js133692854903315376 0
+70C:\Laboratoria\DEV015-dataverse-chat\dist\avengersPortada.af435296.jpg133692873841577835 0
 95C:\Laboratoria\DEV015-dataverse-chat\node_modules\jsdom\lib\jsdom\living\helpers\style-rules.js133692854844627586 0
 76C:\Laboratoria\DEV015-dataverse-chat\node_modules\term-size\vendor\.DS_Store133692854673114923 0
 108C:\Laboratoria\DEV015-dataverse-chat\node_modules\jest-environment-jsdom\node_modules\xml-name-validator\lib133692854710835939 1
@@ -9150,6 +9151,7 @@
 86C:\Laboratoria\DEV015-dataverse-chat\node_modules\jest-cli\node_modules\supports-color133692854699464531 1
 65C:\Laboratoria\DEV015-dataverse-chat\node_modules\lodash\_root.js133692854831029328 0
 64C:\Laboratoria\DEV015-dataverse-chat\node_modules\lodash\_Set.js133692854831198100 0
+64C:\Laboratoria\DEV015-dataverse-chat\dist\index.a3e0fe95.css.map133692873842197909 0
 69C:\Laboratoria\DEV015-dataverse-chat\node_modules\lodash\_SetCache.js133692854831282690 0
 141C:\Laboratoria\DEV015-dataverse-chat\node_modules\jest-environment-jsdom\node_modules\jsdom\lib\jsdom\living\generated\HTMLOptGroupElement.js133692854829508323 0
 84C:\Laboratoria\DEV015-dataverse-chat\node_modules\istanbul-lib-report\lib\context.js133692854670041142 0
@@ -21445,13 +21447,17 @@
 48C:\Laboratoria\DEV015-dataverse-chat\docs\assets133656216792126560 1
 66C:\Laboratoria\DEV015-dataverse-chat\docs\assets\previewApiKey.png133656216789479335 0
 70C:\Laboratoria\DEV015-dataverse-chat\docs\assets\previewGrupalChat.gif133656216792096577 0
+62C:\Laboratoria\DEV015-dataverse-chat\dist\favicon.2a2e97fc.png133692873841567845 0
+59C:\Laboratoria\DEV015-dataverse-chat\dist\index.975ef6c8.js133692874439577305 0
+63C:\Laboratoria\DEV015-dataverse-chat\dist\index.975ef6c8.js.map133692874439627317 0
+60C:\Laboratoria\DEV015-dataverse-chat\dist\index.a3e0fe95.css133692873842087887 0
 59C:\Laboratoria\DEV015-dataverse-chat\dist\index.d5ab3c4d.js133692870397547062 0
 63C:\Laboratoria\DEV015-dataverse-chat\dist\index.d5ab3c4d.js.map133692870397682470 0
 59C:\Laboratoria\DEV015-dataverse-chat\dist\index.e5590ffd.js133692870397547062 0
 63C:\Laboratoria\DEV015-dataverse-chat\dist\index.e5590ffd.js.map133692870397682470 0
 60C:\Laboratoria\DEV015-dataverse-chat\dist\index.ed38b8fd.css133692870397537093 0
 64C:\Laboratoria\DEV015-dataverse-chat\dist\index.ed38b8fd.css.map133692870397682470 0
-52C:\Laboratoria\DEV015-dataverse-chat\dist\index.html133692870397537093 0
+52C:\Laboratoria\DEV015-dataverse-chat\dist\index.html133692873842087887 0
 56C:\Laboratoria\DEV015-dataverse-chat\coverage\clover.xml133688207182109565 0
 66C:\Laboratoria\DEV015-dataverse-chat\coverage\lcov-report\base.css133688207181040136 0
 69C:\Laboratoria\DEV015-dataverse-chat\coverage\lcov-report\prettify.js133688207181330787 0
