@@ -41,8 +41,8 @@ export const navigateTo = (pathname, props = {}) => {
 
 };
 
-export const onURLChange = (location) => {
-  const { pathname, search } = location;
+export const onURLChange = () => {
+  const { pathname, search } = window.location ;
   const searchParams = queryStringToObject(search);
 
   renderView(pathname, searchParams);

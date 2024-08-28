@@ -1,7 +1,7 @@
 import { setRootEl, setRoutes, onURLChange } from './routes.js';
 import Home  from './views/HomeView.js';
 import Details  from './views/DetailView.js';
-import ApikeyView from './views/ApikeyView.js'
+import ApikeyView from './views/ApikeyView.js';
 import Error from "./views/Error.js";
 import ChatView from "./views/ChatView.js";
 import ChatGroup from "./views/ChatGroup.js";
@@ -22,11 +22,11 @@ setRoutes(routes);
 window.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("root");
   setRootEl(root);
-  onURLChange(window.location);
+  onURLChange();
 });
 
 window.addEventListener("popstate", () => {
-  onURLChange(window.location);
+  onURLChange();
 });
 
 
