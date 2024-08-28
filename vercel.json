@@ -1,0 +1,21 @@
+{
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/lib/(.*).js",
+      "headers": {
+        "Content-Type": "application/javascript"
+      },
+      "dest": "/lib/$1.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.js"
+    }
+  ]
+}
