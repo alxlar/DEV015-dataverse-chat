@@ -1,4 +1,4 @@
-import { getApiKey } from './apiKey.js';
+import { getApiKey } from './apiKeyManager.js';
 
 export const communicateWithOpenAI = async (messages) => {
   const APIKEY = getApiKey();
